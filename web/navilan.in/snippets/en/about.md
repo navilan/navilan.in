@@ -3,7 +3,7 @@ programmer][github] and [a poet][Tamil] among other things. The order in terms
 of competence, performance and interest changes frequently.
 
 I desire an open, loving and respectful world. I am a parent. I'd like that for
-our little boy.
+our (not so little anymore) boy.
 
 I believe that a *truly* educated and creative populace is one way to make that
 happen. [I am working actively][puthir] towards that goal in my corner, in my own small
@@ -20,7 +20,7 @@ individual}_, we'll get along fine.
 
 [English]: /en/writings
 [Tamil]: /ta/writings
-[puthir]: https://puthir.in
-[tsc]: https://puthir.in/the-solvers-club
-[kv]: https://puthir.in/kathaividu
+[puthir]: https://puthir.org
+[tsc]: https://socratiq.substack.com/
+[kv]: https://www.amazon.in/Kayal-Formidable-Navilan/dp/1648287972
 [github]: https://github.com/navilan
