@@ -1,0 +1,24 @@
+session_name: navsite
+start_directory: ./
+windows:
+- start_directory: ./web
+  window_name: site
+  panes:
+  - shell_command: make clean_site && make watch_site
+    focus: 'true'
+- start_directory: ./web
+  window_name: styles
+  panes:
+  - shell_command: make clean_styles && make watch_styles
+- start_directory: ./web
+  window_name: serve
+  panes:
+  - shell_command: make serve
+- start_directory: ./
+  window_name: work
+  panes:
+  - shell_command: git status
+- start_directory: ./
+  window_name: pub
+  panes:
+  - shell_command: make syncstatus

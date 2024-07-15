@@ -1,0 +1,8 @@
+out
+dist
+dist*
+build
+_site
+_cache
+.stack*
+web/styles/clean

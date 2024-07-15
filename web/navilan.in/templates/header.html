@@ -1,0 +1,45 @@
+<div class="header-wrap grid gld-12">
+  <header class="page-header row gld-12">
+    <div class="nav-wrap row gld-12">
+      <nav class="nav right lang-menu no-bg row gld-12">
+        <ul class="menu row gld-12">
+          <li class="$if(lang-en)$ active $endif$ menuitem right col gld-7">
+            <a class="row gld-12" lang="en" title="ஆங்கிலம்" href="/en">english</a>
+          </li>
+          <li class="$if(lang-ta)$ active $endif$ menuitem right col gld-7">
+            <a class="row gld-12" lang="ta" title="tamil" href="/ta">தமிழ்</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="row logo-wrap gld-12">
+      <div class="row centered gld-12">
+        <a href="/">
+  <svg class="row centerd gld-12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600"><defs><style>.a{}.b,.c{fill:none;stroke-miterlimit:10;}.b{stroke-width:20px;}.c{stroke-width:12px;}</style></defs><title>navilan-circ</title><rect class="d" width="600" height="600"/><circle class="a" cx="300" cy="300" r="285"/><path d="M422.63,337.91q-15.11,43.65-36.95,67.46a109.15,109.15,0,0,1-52.21,32.2,124,124,0,0,1-30.81,4.58,187,187,0,0,1-33.22-2.3A314,314,0,0,1,233.72,432q-18.5-5.14-38.08-11.91-9.67-3.36-20-7.05l-20.18-7.23-18.6-6.69q-8.73-3.15-15.48-5.48-13.05-4.52-19.69-3.16t-9.61,9.9A43.85,43.85,0,0,0,89.84,411a60.63,60.63,0,0,0,.06,11.1L56.6,410.54a97.48,97.48,0,0,1,0-13.48,54.33,54.33,0,0,1,2.88-14.5Q66.8,361.41,84.29,356t44.05,3.78q8.53,3,19.64,6.92l22.77,8.13L194,383.12q11.53,4.11,21,7.39a357.75,357.75,0,0,0,56.79,15q26.42,4.49,48.4-2.27a76.55,76.55,0,0,0,36.65-24.36Q372.07,361,383,329.25A213.66,213.66,0,0,0,392.89,291q2.53-17.13-2.89-29.85a38.61,38.61,0,0,0-9.52-14Q374,241,362.56,237q-28.12-9.74-48.49,2.87t-32.19,46.81l-29,83.71L216,357.62l81.76-236.27-77.18-26.7L124.44,372.5l-36.9-12.77L195.13,48.8l137.28,87.07,210.66-3.35.56-.23-208.56,58L307,214.23l.67.23a64.7,64.7,0,0,1,34.46-14q18.89-1.77,39.59,5.39,19.13,6.62,30.7,18.31a71.47,71.47,0,0,1,17,27.41q6,17.47,4,39.32T422.63,337.91Z"/><circle cx="252.02" cy="150.78" r="18"/><circle class="a" cx="252.02" cy="150.78" r="5.5"/><line class="b" x1="346.03" y1="421.96" x2="328.59" y2="525.74"/><line class="c" x1="324.22" y1="519.27" x2="300.68" y2="538.52"/><line class="c" x1="362.5" y1="522.86" x2="332.25" y2="519.83"/><line class="c" x1="332.38" y1="520.93" x2="335.3" y2="551.2"/><line class="b" x1="347.52" y1="412.9" x2="390.95" y2="508.75"/><line class="c" x1="383.71" y1="505.83" x2="374.92" y2="534.93"/><line class="c" x1="417.49" y1="487.44" x2="390.69" y2="501.81"/><line class="c" x1="391.41" y1="502.65" x2="410.72" y2="526.14"/></svg>
+        </a>
+      </div>
+      <div class="row centered gld-12">
+        <h1 lang="$lang$" class="centered row gld-12">$lang-site-name$</h1>
+        <h2 lang="$lang$" class="centered row gld-12">$lang-site-title$</h2>
+      </div>
+    </div>
+    $if(hide_menu)$
+    $else$
+    <div class="nav-wrap row gld-12">
+      <nav class="nav fixed left content-menu row gld-12">
+        <ul class="menu row gld-12">
+          <li class="$if(page_about)$ active $endif$ menuitem col gld-7">
+            <a lang="$lang$" class="row gld-12" href="/$lang$">$lang-about-name$</a>
+          </li>
+          <li class="$if(page_writings)$ active $endif$ menuitem col gld-7">
+            <a lang="$lang$" class="row gld-12" href="/$lang$/writings">$lang-writings-name$</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  $endif$
+</div>
+<div class="container $if(container-class)$ $container-class$ $endif$ row gld-12">
+  $body$
+</div>

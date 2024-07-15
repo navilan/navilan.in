@@ -1,0 +1,29 @@
+<ul class="cards reverse row gld-12">
+  $for(posts)$
+  $if(noList)$
+  $else$
+  <li class="card col gld-9">
+    <div class="card-details row gld-12">
+      <a href="$url$" class="row gld-12">
+        <label class="card-title row gld-12">
+          $title$
+          <small class="card-subtitle row gld-12">
+            $date$
+          </small>
+        </label>
+      </a>
+      <p class="card-content row gld-12">
+        $if(teaser)$
+          $teaser$
+        $else$
+          $body$
+        $endif$
+      </p>
+      <a class="card-cfa row gld-12" href="$url$">
+        $lang-read-more$ &raquo;
+      </a>
+    </div>
+  </li>
+  $endif$
+  $endfor$
+</ul>
