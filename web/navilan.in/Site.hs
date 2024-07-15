@@ -29,8 +29,14 @@ import qualified Text.Pandoc.Templates as PT
 
 
 --------------------------------------------------------------------------------
+
+config :: Configuration
+config = defaultConfiguration {
+  deployCommand = "npx wrangler pages deploy ./_site --project-name navilan"
+}
+
 main :: IO ()
-main = hakyll $ do
+main = hakyllWith config $ do
 
     match "snippets/**/*.md" $
       compile pandocTemplateCompiler
