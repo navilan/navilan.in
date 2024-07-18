@@ -126,19 +126,19 @@ According to Panini's (supposed) [original guidance][guidance], moving the head 
 
 ### What should we learn?
 
-1. The Actual Practice: We can perhaps use the muscle memory to cognitive memory tie in for perhaps helping students memorize multiplication tables or other facts.
+* **The Actual Practice**: We can perhaps use the muscle memory to cognitive memory tie in for perhaps helping students memorize multiplication tables or other facts.
 
-2. The Innovation Principle: We must make sure many such practices that are suitable for our current age are innovated through our educators and institutions by establishing a thriving culture of creation and inquiry at schools and universities.
+* **The Innovation Principle**: We must make sure many such practices that are suitable for our current age are innovated through our educators and institutions by establishing a thriving culture of creation and inquiry at schools and universities.
 
-3. The Reformist Attitude: Through critical inquiry, question the prevailing practices and put them to test in order to maximize the learning potential of every student.
+* **The Reformist Attitude**: Through critical inquiry, question the prevailing practices and put them to test in order to maximize the learning potential of every student.
 
-4. Experience Engineering: Ensure that sufficient funds are allocated to schools and research institutions, staffed with creative teachers that work with students to engineer entire learning experiences.
+* **Experience Engineering**: Ensure that sufficient funds are allocated to schools and research institutions, staffed with creative teachers that work with students to engineer entire learning experiences.
 
-5. Grassroot Empowerment: Ensure that a culture of innovation starts at the grassroot level by providing teachers with sufficient training, exposure and autonomy to innovate and satisfy the needs of their students.
+* **Grassroot Empowerment**: Ensure a culture of innovation starts at the grassroot level by providing teachers with sufficient training, exposure and autonomy to innovate and satisfy needs of their students.
 
 ### Is there more to learn?
 
-Upon re-reading, I cannot shake off the feeling that point number 1 is the weakest link in the chain. Why so? I have a few aphorisms:
+Upon re-reading, I cannot shake off the feeling that "the actual practice" is the weakest link in the chain. Why so? I have a few aphorisms:
 
 a. Principles over practices
 b. Reason over rites
@@ -151,7 +151,7 @@ Here is an illustration of a solution form of these aphorisms.
 
 ### One way to evolve the practice
 
-We can loosely apply the process above to make our point #1 suit our current needs.
+We can loosely apply the process above to make "the actual practice" suit our current needs.
 
 #### The Problem
 
