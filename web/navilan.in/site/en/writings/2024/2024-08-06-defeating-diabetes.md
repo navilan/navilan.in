@@ -213,3 +213,7 @@ When I rejoined work with a couple of crutches after an accident, I was embarras
 The stairs were smoothly polished and had rounded edges. I figured that moving my feet to the edge of the stairs and slipping down made me much faster and helped me keep up with my colleagues. Weirdly enough, it also felt a lot safer than climbing down, especially with my crutches.
 
 The human body coupled with the mind is a dynamic machine with distributed intelligence that's infinitely hackable. Type-2 diabetes is most often an easily fixable problem with some tight lifestyle choices that eventually make you feel like a million bucks even if it occasionally leaves you longing for that one thing you can't have.
+
+Over the past 3 months, I've made my organic matter happy and I'm certain that it must be feeling secure given my rock solid plans to keep it comfortable and well nurtured. It is now time again to focus on inorganic truths and eternal knowledge.
+
+Onward and upward!
