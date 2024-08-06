@@ -56,7 +56,7 @@ cardsStyle = do
           height (rem 0.1618)
           width (pct 100)
           sym padding (rem 0)
-          borderBottom solid (px 1) pGray
+          borderBottom (px 1) solid  pGray
 
       ".card-subtitle" ? do
         display flex
@@ -101,7 +101,7 @@ cardsStyle = do
         width (pct 100)
         fontWeight normal
         maxWidth (pct 100)
-        borderTop solid (px 1) pGray
+        borderTop (px 1) solid  pGray
         color pGray
         textShadow (px 0) (px 1) (px 0) (setAlpha pHighLight 0.8)
         hover & do

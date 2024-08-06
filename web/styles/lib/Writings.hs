@@ -115,7 +115,7 @@ writings = do
 
 
     blockquote ? do
-      borderLeft solid (px 4) pGray
+      borderLeft (px 4) solid  pGray
       marginTop (rem 0.618)
       marginBottom (px 0)
       paddingTop (px 0)
@@ -138,6 +138,50 @@ writings = do
       a ? do
         color pBlack
         sansSerifFont
+
+    ".row-wise p" ? do
+        display flex
+        "gap" -: "0.5rem"
+        flexAlignCenter
+        img ? do
+          sym margin (px 0)
+          maxWidth (pct 30)
+
+    ".row-wise figure" ? do
+        img ? do
+          maxWidth (pct 30)
+
+    ".row-wise.wider" ? do
+        img ? do
+            maxWidth (pct 50)
+
+    ".row-wise.full" ? do
+        img ? do
+            maxWidth (pct 100)
+
+    ".col-wise p" ? do
+        display flex
+        flexDirection column
+        "gap" -: "0.5rem"
+        flexAlignCenter
+        img ? do
+          maxWidth (pct 30)
+          sym margin (px 0)
+
+    ".col-wise figure" ? do
+        img ? do
+          maxWidth (pct 30)
+
+    ".col-wise.wider" ? do
+        img ? do
+            maxWidth (pct 50)
+
+    ".col-wise.full" ? do
+        img ? do
+            maxWidth (pct 100)
+
+
+
 
     ".sound-cloud" ? do
       marginTop (rem 1)

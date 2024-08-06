@@ -108,7 +108,7 @@ tableStyle =
     fontSize (rem 0.618)
     tr <> ".divTableRow" ? do
       td <> th <> ".divTableCell" <> ".divTableHead" ? do
-        border solid (px 1) pGray
+        border (px 1) solid pGray
         sym2 padding (rem 0.618) (rem 0)
         textAlign center
         width (pct 13)

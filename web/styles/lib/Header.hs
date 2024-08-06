@@ -41,7 +41,7 @@ headerStyle = do
         flexAlignCenter
         minWidth (px 100)
         sym padding (rem 0.1618)
-        borderTop solid (px 4) pHighDark
+        borderTop (px 4) solid  pHighDark
         marginTop (px (-8))
         a ? do
           flexAlignCenter
@@ -49,7 +49,7 @@ headerStyle = do
           hover & do
             color pWhite
         ".active" & do
-          borderTop solid (px 4) pWhite
+          borderTop (px 4) solid  pWhite
           backgroundColor pWhite
           marginTop (px 0)
           a ? do

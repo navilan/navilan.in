@@ -86,10 +86,10 @@ site = do
       backgroundColor pWhite
       fontSize (rem 0.618)
       lineHeight (rem 1)
-      borderTop solid (px 0) transparent
-      borderBottom solid (px 0) transparent
-      borderLeft solid (px 0) transparent
-      borderRight solid (px 0) transparent
+      borderTop (px 0) solid  transparent
+      borderBottom (px 0) solid  transparent
+      borderLeft (px 0) solid  transparent
+      borderRight (px 0) solid  transparent
       sym padding (rem 0.618)
       sym margin (rem 1.618)
 
