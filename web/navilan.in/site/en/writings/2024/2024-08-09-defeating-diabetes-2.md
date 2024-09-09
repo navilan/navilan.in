@@ -24,7 +24,7 @@ to [take a quick scroll through it][initial post]. This is an intermediate updat
 
 ## Health Stats
 
-Since my last post I've lost well over 3kgs, built some muscle and on my way towards hitting my targeted goals.
+Since my last post, I've lost well over 3kgs, built some muscle and am on my way towards hitting my targeted goals.
 
 
 <div class="row-wise">
@@ -40,12 +40,10 @@ Since my last post I've lost well over 3kgs, built some muscle and on my way tow
 
 In comparison:
 
-|                           | 6th Aug  | 9th Sep  |
-|-------------------------- |----------|----------|
-| Weight (Kg)                   | 68       | 64.6     |
-| Blood Sugar Range (mg/dL)        | 75 - 121 | 83 - 104 |
-| Medication (Metaformin/Sitagliptin)               | 2 doses  | 1 dose   |
-| T-shirt size               | L     | M |
+| Date      | Weight (Kg) | Blood Sugar Range (mg/dL) | Medication      | T-shirt Size |
+|-----------|-------------|---------------------------|-----------------|--------------|
+| 6th Aug   | 68          | 75 - 121                  | 2 doses         | L            |
+| 9th Sep   | 64.6        | 83 - 104                  | 1 dose          | M            |
 
 &nbsp;
 
@@ -57,7 +55,7 @@ In comparison:
 
 ## Workout Routine
 
-I've been tweaking and tuning my workout routine over the past few weeks and have an efficient, effective and something that will work not just to meet my current goals, but also as a way to maintain an active life-style for the next decade.
+I've been tweaking and tuning my workout routine over the past few weeks and have an efficient, effective plan that will work not just to meet my current goals, but also as a way to maintain an active life-style for the next decade.
 
 I have a custom built workout routine that spans all 7 days with 4 days of strength + light cardio, 2 days of core + heavy cardio and one day of active recovery.
 
@@ -65,7 +63,7 @@ I have a custom built workout routine that spans all 7 days with 4 days of stren
 
 As I mentioned in my previous post, the fantastic, cozy gym in my apartment was unfortunately no longer sufficient for my workout needs.
 
-I got lucky. A super well equipped, clean, well-staffed Gym opened up recently, close to where I live. If you live in Chennai, near the Injambakkam area, [check these folks out][DJ]. They rock!
+I got lucky. A well equipped, clean, sufficiently-staffed Gym opened up recently, close to where I live. If you live in Chennai, near the Injambakkam area, [check these folks out][DJ]. They rock!
 
 [DJ]: https://djfitnessstudio.in/
 
@@ -92,7 +90,7 @@ While we have cooked Shirataki noodles before as a novelty, I rediscovered it as
 
 ## Tracking Tools
 
-I'm now using the [One Drop app][] to log and track my blood glucose. While the app is a tad too noisy for my taste, it's "journey" view is pretty cool and gives an estimated HbA1C measure (sweet! ;) ).
+I'm now using the [One Drop app][] to log and track my blood glucose. While the app is a bit too noisy for my taste, it's "journey" view is pretty cool and gives an estimated HbA1C measure.
 
 [One Drop app]: https://onedrop.today/
 
@@ -102,6 +100,6 @@ I'm now using the [One Drop app][] to log and track my blood glucose. While the 
 
 ## Next Steps
 
-I have around 3 Kgs more to lose and quite some muscle to build. There is just over a month left before I go for my next assessment to get free of medication.
+I have about 3 Kgs more to lose and significant muscle to build. There is just over a month left before I go for my next assessment to get free of medication.
 
 I will share my detailed workout routine in the next installment of this series. I also have exciting updates coming up on other fronts. Stay tuned.
