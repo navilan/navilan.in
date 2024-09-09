@@ -22,7 +22,6 @@ to [take a quick scroll through it][initial post]. This is an intermediate updat
 
 [initial post]: /$relToAbs("./2024-08-06-defeating-diabetes.html")$
 
-
 ## Health Stats
 
 Since my last post I've lost well over 3kgs, built some muscle and on my way towards hitting my targeted goals.
@@ -55,15 +54,12 @@ In comparison:
 ![Sugar Range - Sep](./diabetes/glucose-99.jpg)
 </div>
 
-## Tracking Tools
 
-I'm now using the [One Drop app][] to log and track my blood glucose. While the app is a tad too noisy for my taste, it's "journey" view is pretty cool and gives an estimated HbA1C measure (sweet! ;) ).
+## Workout Routine
 
-[One Drop app]: https://onedrop.today/
+I've been tweaking and tuning my workout routine over the past few weeks and have an efficient, effective and something that will work not just to meet my current goals, but also as a way to maintain an active life-style for the next decade.
 
-<div class="row-wise">
-![One Drop Goal View](./diabetes/one-drop.jpg)
-</div>
+I have a custom built workout routine that spans all 7 days with 4 days of strength + light cardio, 2 days of core + heavy cardio and one day of active recovery.
 
 ## Equipment
 
@@ -83,10 +79,29 @@ I got lucky. A super well equipped, clean, well-staffed Gym opened up recently, 
 ![DJ Cardio](./diabetes/dj_cardio.jpg)
 </div>
 
+## Dietary Changes
+
+Given the additional focus on muscle building, I've upped my protein intake to 100% of my body weight. I start my day with a hearty double sunny-side up, espresso laced with cocoa. Low Carb, protein heavy lunch and chicken salad for dinner has been super helpful in recovery as well as deliciously satisfying.
+
+While we have cooked Shirataki noodles before as a novelty, I rediscovered it as part of my diabetes research and boy, what a magical gift that is. Yum! For those that are not in the know, it is technically 0% carb and delectably 100% noodley.
+
+<div class="row-wise wider">
+![Hearty Double Sunny-side up](./diabetes/hearty-sunny.jpg)
+![Shirataki Noodles](./diabetes/shirataki.jpg)
+</div>
+
+## Tracking Tools
+
+I'm now using the [One Drop app][] to log and track my blood glucose. While the app is a tad too noisy for my taste, it's "journey" view is pretty cool and gives an estimated HbA1C measure (sweet! ;) ).
+
+[One Drop app]: https://onedrop.today/
+
+<div class="row-wise">
+![One Drop Goal View](./diabetes/one-drop.jpg)
+</div>
+
 ## Next Steps
 
 I have around 3 Kgs more to lose and quite some muscle to build. There is just over a month left before I go for my next assessment to get free of medication.
 
-I've been tweaking and tuning my workout routine over the past few weeks and have an efficient, effective and something that will work not just to meet my current goals, but also as a way to maintain an active life-style for the next decade.
-
-I will share my workout routine in the next installment of this series. I also have exciting updates coming up on other fronts. Stay tuned.
+I will share my detailed workout routine in the next installment of this series. I also have exciting updates coming up on other fronts. Stay tuned.
