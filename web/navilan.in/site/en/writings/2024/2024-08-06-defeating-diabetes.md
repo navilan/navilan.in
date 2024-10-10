@@ -1,5 +1,5 @@
 ---
-title: Defeating Diabetes
+title: Defeating Diabetes - Part 1
 date: 2024-08-06
 ogmeta: true
 og_image: /en/writings/2024/diabetes/diabetes.jpg
@@ -217,3 +217,7 @@ The human body coupled with the mind is a dynamic machine with distributed intel
 Over the past 3 months, I've made my organic matter happy and I'm certain that it must be feeling secure given my rock solid plans to keep it comfortable and well nurtured. It is now time again to focus on inorganic truths and eternal knowledge.
 
 Onward and upward!
+
+--------------------
+
+$partial("snippets/en/diabetes-series-links.md")$
