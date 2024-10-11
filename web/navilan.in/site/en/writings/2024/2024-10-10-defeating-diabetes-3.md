@@ -118,9 +118,9 @@ I'm immensely grateful that I got the alert as it helped me make 3 vital connect
 
 My past couple of months of research and effort have taken care of all my short-term goals and needs. I'm running a few experiments to convert my learnings into sustainable long term routines and continuous improvement goals.
 
-In terms of goals, I have about 1 more KG of fat to lose and a lot of muscle to gain. But this is not part of the boot camp type dietary / workout regimen that I have been imposing on myself. A longer term, living goal that will continuously tweak and tune as my body adapts to the new reality.
+In terms of goals, I have about 1 more KG of fat to lose and a lot of muscle to gain. But this is not part of the boot camp type dietary / workout regimen that I have been imposing on myself. A longer term, living goal that I will continuously tweak and tune as my body adapts to the new reality.
 
-I will also be experimenting with eating more normal (moderate - high carb) food and desserts to see how my body reacts.  I will publish my detailed workout routine for those that are on a similar journey towards recovery diabetes or general health.
+I will also be experimenting with eating more normal (moderate - high carb) food and desserts to see how my body reacts.  I will publish my detailed workout routine for those that are on a similar journey towards diabetes recovery  or general health.
 
 Stay tuned for some interesting announcements in this area and others.
 
