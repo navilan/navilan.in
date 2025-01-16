@@ -25,6 +25,9 @@
     <title>$title$</title>
     <link href="https://fonts.googleapis.com/css?family=Arima+Madurai:500,800|Merriweather:300,400,700|Montserrat+Alternates:300,400,700,900&display=swap&subset=tamil" rel="stylesheet">
     <link rel="stylesheet" href="/media/styles/styles.css">
+    <link rel="stylesheet" href="/media/styles/panzoom.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="/media/scripts/panzoom.js"></script>
 
 
     $if(ogmeta)$
@@ -58,5 +61,9 @@
   </head>
   <body>
     $body$
-  </body>
+    <script>
+        initializePanAndZoom();
+    </script>
+</body>
 </html>
+

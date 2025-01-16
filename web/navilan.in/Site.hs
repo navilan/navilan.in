@@ -59,6 +59,10 @@ main = hakyllWith config $ do
         route   idRoute
         compile copyFileCompiler
 
+    match "media/scripts/*.js" $ do
+        route   idRoute
+        compile copyFileCompiler
+
     match "sitemap.xml" $ do
         route   idRoute
         compile copyFileCompiler

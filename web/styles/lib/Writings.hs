@@ -19,6 +19,9 @@ writings = do
     ".teaser-only" ? do
       display none
 
+  ".zoomable.fullwidth img" ? do
+      width (pct 100)
+
   ".writing" ? do
     backgroundColor pWhite
     sym2 margin (rem 1.618) auto

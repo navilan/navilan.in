@@ -32,8 +32,8 @@ Here is the comparative report:
 | Date            | HbA1c | Mean Blood Glucose |  Prescribed Medication             |
 |-----------------|-------|--------------------|------------------------------------|
 | 13th May        | 10.2  | 246                | 2 doses of Metformin + Sitagliptin |
-| 5th Aug         | 5.0   | 97                 | 1 dose of Metaformin + Sitagliptin |
-| 9th Oct         | 4.7   | 88                 | 1 dose of Metaformin               |
+| 5th Aug         | 5.0   | 97                 | 1 dose of Metformin + Sitagliptin |
+| 9th Oct         | 4.7   | 88                 | 1 dose of Metformin               |
 
 There is a very high chance that in the next assessment, I will be free of medication, giving back autonomy and control to my body.
 
@@ -120,7 +120,7 @@ My past couple of months of research and effort have taken care of all my short-
 
 In terms of goals, I have about 1 more KG of fat to lose and a lot of muscle to gain. But this is not part of the boot camp type dietary / workout regimen that I have been imposing on myself. A longer term, living goal that I will continuously tweak and tune as my body adapts to the new reality.
 
-I will also be experimenting with eating more normal (moderate - high carb) food and desserts to see how my body reacts.  I will publish my detailed workout routine for those that are on a similar journey towards diabetes recovery  or general health.
+I will also be experimenting with eating more normal (moderate - high carb) food and desserts to see how my body reacts.  I will publish my detailed workout routine for those that are on a similar journey towards diabetes recovery or general health.
 
 Stay tuned for some interesting announcements in this area and others.
 
