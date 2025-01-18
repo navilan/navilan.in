@@ -111,7 +111,7 @@ In parallel, there were those that rejected the idea of limiting the seeking of 
 
 Rejection of vedic knowledge dissolved the power of those that were ritualistic experts. The production and popularization of epistimelogic texts in Buddhism and Jainism elevated the place of Shramana traditions among the masses and the elite.
 
-To rise up to this challenge, the vedic philosophers founded and developed the 6 darshanas. During this period the various schools engaged in critiques of each other's works further enhancing the potency of each of the schools as well as the argumentative tradition of the "Indian" inquiry into the nature of truth.
+To rise up to this challenge, the vedic philosophers founded and developed the 6 darshanas. During this period the various schools engaged in critiques of each other's works, further enhancing the potency of their schools as well as the argumentative tradition of the "Indian" inquiry into the nature of truth.
 
 Adi Shankara, clearly inspired by many of the Buddhist principles, but with a keen disdain for certain aspects that he attributed to a nihilistic outlook, brought the monistic Adwaita as a major force and swept through the nation with debates, treatises and force, annihilating the buddhist strongholds.
 
@@ -121,9 +121,9 @@ Just as Shankara captured a massive mind-share among the populace with his Buddh
 
 ![Adi Sankara's Digvijaya](https://www.kamakoti.org/kamakoti/details/Adi%20Sankara's%20Travel%20Map.jpg)
 
-Just as nihilism became the reason for the switch from Buddhism to Adwaita, Bhakti became the instigating force for the emergence and popularization of Vishistadwaita, which allowed for Bhakti as potential path to liberation through qualified non-dualism. Ramanuja also broke away from Sankara and the Vedic traditions in disqualifying the varna system as a gatekeeper.
+Just as nihilism became the reason for the switch from Buddhism to Adwaita, Bhakti became the instigating force for the emergence and popularization of Vishistadwaita, which allowed for Bhakti as a potential path to liberation through qualified non-dualism. Ramanuja also broke away from Sankara and the Vedic traditions in disqualifying the varna system as a gatekeeper.
 
-Later on, Madhava takes this further by propounding that true Bhakti is not possible in monist or qualified-monist framework and hence establishing one of the very first dualist frameworks in Dwaita. He also brought back the Varna system as a mainstay in his philosophies.
+Later on, Madhava takes this further by propounding that true Bhakti is not possible in a monist or qualified-monist framework and hence establishing one of the very first dualist frameworks in Dwaita. He also brought back the Varna system as a mainstay in his philosophies.
 
 It is important to note that each of these transition periods relied on extensive argumentation, interpretation and re-interpretation of texts from competing and ancestral schools of thought, and persuasion of the masses through public debates and published critiques.
 
@@ -131,7 +131,7 @@ These extraordinary thinkers were supported by the patronage of the philosophica
 
 ## The dark ages
 
-Dark ages are unavoidable. They are a part of every intellectual and industrious civilization. They are also fantastic teachers. By gaining a good understanding of the onset, extension and eradication of every dark age, we can avoid the pitfalls that may lead us to another or recover from one we are in. History rhymes and occasionally repeats.
+Dark ages are unavoidable. They are a part of every intellectual and industrious civilization. They are also fantastic teachers. By gaining a good understanding of the onset, extension and eradication of every dark age, we can avoid the pitfalls that may lead us to another or recover from the one we are in. History always rhymes and occasionally repeats.
 
 One of the puzzling pieces of this land is how The East India Company with only a handful of soldiers was able to hire the natives, pit them against each other and use them to capture their own land. How could a land of such intellectual superiority fall into such disorder?
 
@@ -147,13 +147,13 @@ Daphnia, a crustacean plankton species switches between sexual reproduction and 
 By Author=<a href="//commons.wikimedia.org/wiki/User:Ditaviz" title="User:Ditaviz">Dita Vizoso</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>
 </small></p>
 
-When the conditions are favorable, that is, there is no risk of extinction (period of growth), reproduction is done using parthenogenesis (cloning). We can understand the logic: don't fix what ain't broke. However, when there is a risk (no growth), the organism reverts to sexual reproduction with a hope that the mutations from sexual reproduction may result in traits that help with the survival of the species.
+When conditions are favorable, that is, there is no risk of extinction (period of growth), reproduction is done using parthenogenesis (cloning). We can understand the logic: don't fix what ain't broke. However, when there is a risk (no growth), the organism reverts to sexual reproduction with a hope that the mutations from sexual reproduction may result in traits that help with the survival of the species.
 
 The same applies to societies, ideas and philosophies. When they are not challenged, they result in a parthenogenesis resulting in static societies that cling to their ways and do not change.
 
 ### What happened?
 
-In order to understand how this glorious sprawling civilization with unparalleled intellectual curiosity spiralled into intellectual deficit, powerlessness and economic downfall, we need to visit a few conditions that may have contributed to the complete stop in the continuous social movement of ideas that we have seen above.
+In order to understand how this glorious, sprawling civilization with unparalleled intellectual curiosity spiralled into intellectual deficit, powerlessness and economic downfall, we need to visit a few conditions that may have contributed to the complete stop in the continuous social movement of ideas that we have seen above.
 
 ![The Mughal Empire](https://www.worldhistory.org/uploads/images/16429.png)
 
@@ -163,16 +163,15 @@ In order to understand how this glorious sprawling civilization with unparallele
 
 3. Loss of Reason: When the society reverted to conservation under deficit and oppression, the easiest thing to preserve were the rituals - well codified, orally transmitted to perfection. Designed for survival. However, the tradition of inquiry, the rigorous argumentation, the quest for truth was lost in this fight for survival.
 
-4. Unfavorable Social Technology: The well established later-varna systems further divided and specialized the society resulting in very few people possessing the knowledge to advance or even rekindle the culture of inquiry.
+4. Unfavorable Social Technology: The well established later-varna systems further divided and specialized the society resulting in very few people possessing the knowledge to advance or even rekindle this culture of inquiry.
 
-5. Poor Genetic Technology: The varna system was a technology that actively prevented favorable mutations under threat of survival. While it worked well during times of peace, replicating successful formulae, it prevented mutations that could have resulted in a better genetic pool.
+5. Poor Genetic Technology: The varna system was a technology that actively prevented favorable mutations under threat. While it worked well during times of peace, replicating successful formulae, it prevented mutations that could have resulted in a better genetic pool.
 
 ![The British India](https://www.worldhistory.org/uploads/images/16460.png)
 
 To rebuild this land, to revitalize the intellectual pool, to rekindle the intellectual progress, a good model of this has to be understood and plans to address the deficits have to be charted and put in place.
 
 ## What is India?
-
 
 The fragmented land was geographically unified, ironically by her captors and at their unavoidable retreat, seeds of distrust were sown to stall progress.
 
@@ -225,9 +224,9 @@ He goes further and explains why it is _the_ truth:
 
 <br>
 
-For the last philosopher, J. Krishnamurthy, it is choiceless awareness:
+For the last philosopher, J. Krishnamurti, it is choiceless awareness:
 
-> This new quality of awareness is attention, and in this attention there is no frontier made by the "me". This attention is the highest form of virtue, therefore it is love. It is supreme intelligence, and there cannot be attention if you are not sensitive to the structure and the nature of these man-made traps. &mdash; J. Krishnamurthy.
+> This new quality of awareness is attention, and in this attention there is no frontier made by the "me". This attention is the highest form of virtue, therefore it is love. It is supreme intelligence, and there cannot be attention if you are not sensitive to the structure and the nature of these man-made traps. &mdash; J. Krishnamurti.
 
 <br>
 
@@ -239,7 +238,7 @@ You can look at India as a fragmented land or a fertile land. But you have to co
 
 A culture of inquiry, Mimamsa, begins by acknowledging the richness and the source of this land's intellectual greatness.
 
-Vedanta, one of the most recent and most popular segment of this intellectual map is often misunderstood as "The end of knowledge" as *Veda* is knowledge and *Anta* is usually the ending. However, *Anta* has other meanings - one in particular is very closely related to inner / root / core / origin. So, in many ways Vedanta is the inquiry into the root of the Vedas or in other words, a quest to find the truth in Vedas. Hence the alternate name, *Uttara Mimamsa*.
+Vedanta, one of the most recent and most popular segment of this intellectual map is often misunderstood as "The end of knowledge" as *Veda* is knowledge and *Anta* is usually the ending. However, *Anta* has other meanings - one in particular is very closely related to inner / root / core / origin. So, in many ways, Vedanta is the inquiry into the root of the Vedas or in other words, a quest to find the truth in Vedas. Hence the alternate name, *Uttara Mimamsa*.
 
 
 <center>
@@ -268,7 +267,6 @@ In one way, India was the Vishwaguru at that time. In another, it is also the on
 With waves of nationalism and an undercurrent of divisive politics, India keeps trying to find her collective identity without understanding her true roots. Her source of greatness lies in a strong tradition of inquiry. Inquiry into everything from metaphysics to physics, mathematics to music, atheism to asceticism, mindfulness to magnificent epics. To truly believe in the greatness of this land is to embrace all its products while applying the rigorous culture of public critques and passionate debates.
 
 To rebuild this tradition of inquiry, to bring back the glorious past where this land was the cradle of creativity, bastion of knowledge, leader in learning, she needs to bring back the institutions of the past, the plurality in ideas and a persistent focus and patronage of the pursuit of truth.
-
 
 
 <center style="width: 100%">
