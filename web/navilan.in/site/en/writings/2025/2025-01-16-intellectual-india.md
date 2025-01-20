@@ -76,7 +76,7 @@ Every discourse about India leads us to its fragmented nature. The many language
 
 The impassable mountains in the north gave rise to magnificent rivers and fertile plains. However, the existence of a few mountain passes allowed raiders and settlers from the northwest to continuously ravage the productive and wealthy lands. These frequent raids made empire building impossible. Shifts of power and redrawing of geographical boundaries was the norm, resulting in fragmented fiefdoms and distinct cultures.
 
-The Vindhya mountains and the highlands of deccan plateau, along with the ghats, isolated the southern landmass. The coast connected cultures and lands physically farther but easily navigable. This combination of physical isolation and ample trading opportunities allowed the south to flourish independently. However, the diverse landscape and the lack of navigability in the rivers and terrain also resulted in multiple power centers and eventual fragmentation of the southern lands.
+The Vindhya mountains and the highlands of deccan plateau, along with the ghats, isolated the southern landmass. The coast connected cultures and lands physically farther but easily navigable. This combination of physical isolation and ample trading opportunities allowed the south to flourish independently. However, the diverse landscape and the lack of navigability in the rivers and terrain gave rise to multiple power centers and eventual fragmentation of the southern lands.
 
 <img width="100%" alt="Extent of the Chola Empire." src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Rajendra_map_new.svg">
 <a title="Rajendra_map_new.png: The original uploader was Venu62 at English Wikipedia.
@@ -86,7 +86,7 @@ derivative work: Gregors, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/b
 
 The varied and fragmented power centers across the landmass prevented a grand unification until the colonial era when technological advancements helped ease navigability across the landmass. Despite the fragmentation, there was a constant and rich exchange of ideas happening all the time. Traders, missionaries, pilgrims, poets, storytellers and the resultant viral spread of schools of spirituality and philosophy contributed to a thriving intellectual factory.
 
-This fragmented landscape also resulted in healthy competition among the kingdoms to showcase their intellectual and economic prowess through currencies of status - establishment of religious buildings, patronage of higher order works of poetry, literature, music and art.
+This fragmented landscape encouraged healthy competition among the kingdoms to showcase their intellectual and economic prowess through currencies of status - establishment of religious buildings, patronage of higher order works of poetry, literature, music and art.
 
 ## A cradle of creativity, a nursery of ideas and an ecosystem of inquiry
 
@@ -101,7 +101,7 @@ The early scholars had the difficult job of communicating vast swaths of accumul
 
 Every new brain learning these verses was a papyrus to write on. A mistake there will propagate across the lands. This phenomenon of the chinese whisper had to be circumvented. So, [rigorous learning](../2024/2024-07-18-learning-from-the-past#a-fantastic-system-of-learning) of the vedas from a very young age was undertaken with a strenuous regimen of pitch perfect, syllable intact recitation. Further care was taken to prevent mistakes by enshrining the very utterance of each syllable as a sacred note with divine energy.
 
-The patrons, the wealthy kings who wanted [yajnas][] to be performed were always in need of the next priest that could do that. This created a thriving economy, provided high status for those that can recite these rituals to perfection and hence carry out the procedures whenever needed. However, the booming practice resulted in a slump in intellectual progress. The economic viability of read and recite resulted in a deep void. There were no longer people that could think and create.
+The patrons, the wealthy kings who wanted [yajnas][] to be performed were always in need of the next priest that could do that. This created a thriving economy, provided high status for those that can recite these rituals to perfection and hence carry out the procedures whenever needed. However, the booming practice brought in a big slump in intellectual progress. The economic viability of read and recite transformed into a deep void. There were no longer people that could think and create.
 
 [yajnas]: https://en.wikipedia.org/wiki/Yajna
 
@@ -147,9 +147,9 @@ Daphnia, a crustacean plankton species switches between sexual reproduction and 
 By Author=<a href="//commons.wikimedia.org/wiki/User:Ditaviz" title="User:Ditaviz">Dita Vizoso</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>
 </small></p>
 
-When conditions are favorable, that is, there is no risk of extinction (period of growth), reproduction is done using parthenogenesis (cloning). We can understand the logic: don't fix what ain't broke. However, when there is a risk (no growth), the organism reverts to sexual reproduction with a hope that the mutations from sexual reproduction may result in traits that help with the survival of the species.
+When conditions are favorable, that is, there is no risk of extinction (period of growth), reproduction is done using parthenogenesis (cloning). We can understand the logic: don't fix what ain't broke. However, when there is a risk (no growth), the organism reverts to sexual reproduction with a hope that the mutations from sexual reproduction may give rise to traits that help with the survival of the species.
 
-The same applies to societies, ideas and philosophies. When they are not challenged, they result in a parthenogenesis resulting in static societies that cling to their ways and do not change.
+The same applies to societies, ideas and philosophies. When they are not challenged, they revert to parthenogenesis, forming static societies that cling to their ways and do not change.
 
 ### What happened?
 
@@ -163,9 +163,9 @@ In order to understand how this glorious, sprawling civilization with unparallel
 
 3. Loss of Reason: When the society reverted to conservation under deficit and oppression, the easiest thing to preserve were the rituals - well codified, orally transmitted to perfection. Designed for survival. However, the tradition of inquiry, the rigorous argumentation, the quest for truth was lost in this fight for survival.
 
-4. Unfavorable Social Technology: The well established later-varna systems further divided and specialized the society resulting in very few people possessing the knowledge to advance or even rekindle this culture of inquiry.
+4. Unfavorable Social Technology: The well established later-varna systems further divided and specialized the society. Very few people possessed the knowledge to advance or even rekindle this culture of inquiry.
 
-5. Poor Genetic Technology: The varna system was a technology that actively prevented favorable mutations under threat. While it worked well during times of peace, replicating successful formulae, it prevented mutations that could have resulted in a better genetic pool.
+5. Poor Genetic Technology: The varna system was a technology that actively prevented favorable mutations under threat. While it worked well during times of peace, replicating successful formulae, it prevented mutations that could have provided a better genetic pool.
 
 ![The British India](https://www.worldhistory.org/uploads/images/16460.png)
 
@@ -183,7 +183,10 @@ Is it Varna? The hierarchical system of social responsibilities? Can't be. It wi
 
 Is it Dharma? The system of rules established by the vedas and expounded in later literature? Not quite. The Vedas were continuously interpreted and it will be impossible to come to a conclusion on "What is Dharma" if we bring together all the sects. Here is a clip of someone more decorated than me stating it:
 
-<div class='embed-container'><iframe src='https://www.youtube.com/embed/X5LHwS9iYKU' frameborder='0' allowfullscreen></iframe></div>
+<div class='embed-container'>
+<iframe src='https://www.youtube.com/embed/X5LHwS9iYKU&amp;start=405&amp;end=415' frameborder='0' allowfullscreen>
+</iframe>
+</div>
 
 [The entire video](https://www.youtube.com/watch?v=X5LHwS9iYKU&t=1s) is well presented and a great watch if you are interested in this topic.
 
