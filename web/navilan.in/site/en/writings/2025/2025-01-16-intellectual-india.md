@@ -184,7 +184,7 @@ Is it Varna? The hierarchical system of social responsibilities? Can't be. It wi
 Is it Dharma? The system of rules established by the vedas and expounded in later literature? Not quite. The Vedas were continuously interpreted and it will be impossible to come to a conclusion on "What is Dharma" if we bring together all the sects. Here is a clip of someone more decorated than me stating it:
 
 <div class='embed-container'>
-<iframe src='https://www.youtube.com/embed/X5LHwS9iYKU&amp;start=405&amp;end=415' frameborder='0' allowfullscreen>
+<iframe src='https://www.youtube.com/embed/X5LHwS9iYKU?start=405&amp;end=415' frameborder='0' allowfullscreen>
 </iframe>
 </div>
 
