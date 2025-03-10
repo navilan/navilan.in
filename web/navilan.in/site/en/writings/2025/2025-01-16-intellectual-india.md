@@ -194,6 +194,8 @@ Is it Bhakti? It even brings together Sufis alongside Vaishnavites and Shaivites
 
 Yet, there is something unifying about all of this. What is it? What makes India, India?
 
+<section id="mimamsa"></section>
+
 I propose: Mimamsa. Here, I'm not talking about "Purva Mimamsa" or "Uttara Mimamsa", but the general idea of Mimamsa. Reflection. Investigation. Inquiry. The eternal quest for truth. To find the meaning of it all. That has been the driving force of the existence of this exquisite land. It unifies the Vedics, the Shramanas and the pre-vedic traditions.
 
 By accepting "Mimamsa" as the unifying idea behind India, we also reignite the culture of the pursuit of truth. What is this truth? How do we go about it?
