@@ -1,0 +1,1 @@
+{"rule":"ENGLISH_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QSomething that we create to mimic the nature's beauty and bounty or something that we make to survive against its fury.\\E$"}

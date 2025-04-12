@@ -1,6 +1,6 @@
 ---
 title: "The Purpose of India: What is our duty?"
-date: 2025-01-16
+date: 2025-03-10
 ogmeta: true
 og_image: /en/writings/2025/map/nalanda.jpg
 tags: navilan,blog,india,philosophy
@@ -63,7 +63,7 @@ To rise up to its calling, the seeds need to be planted at home. India has to co
 
 These seeds ought to be planted in as many fertile fields as possible. Just as we did in the past at [Nalanda][]. We need to [learn from the past][past] without losing what we know now. Take the good things from the many worlds, become alchemists to germinate new seeds of change and harmony.
 
-![The Many Truths](./purpose/pathways.png)
+![The Many Truths?](./purpose/pathways.png)
 
 [past]: ../2024/2024-07-18-learning-from-the-past.html
 
