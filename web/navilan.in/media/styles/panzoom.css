@@ -47,6 +47,11 @@
     gap: 10px;
 }
 
+
+.zoomable.dark-img .control-buttons {
+    background-color: #ccc;
+}
+
 .zoomable .control-buttons button {
     background: none;
     border: none;
