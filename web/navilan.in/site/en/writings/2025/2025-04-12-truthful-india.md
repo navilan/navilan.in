@@ -7,8 +7,8 @@ tags: navilan,blog,india,philosophy
 description: A deep dive into the very purpose of purpose.
 pageType: essay
 author_twitter: navilan
-published: 2025-03-10
-modified: 2025-03-10
+published: 2025-04-12
+modified: 2025-04-12
 ---
 
 <div class="row gld-12">

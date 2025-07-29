@@ -46,3 +46,23 @@ slammer = do
     alignItems stretch
     alignContent stretch
 
+  ".grid-gallery" ? do
+    display grid
+    "grid-template-columns" -: "1fr 1fr"
+    "grid-template-rows" -: "1fr 1fr"
+    "gap" -: "10px"
+    margin (px 0) auto (px 0) auto
+
+    "a" ? do
+      display block
+      overflow hidden
+      "aspect-ratio" -: "1"
+      maxWidth (px 200)
+      maxHeight (px 200)
+
+    "img" ? do
+      width (pct 100)
+      height (pct 100)
+      "object-fit" -: "cover"
+      display block
+

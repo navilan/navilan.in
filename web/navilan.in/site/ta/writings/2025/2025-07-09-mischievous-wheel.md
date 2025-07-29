@@ -7,8 +7,8 @@ tags: navilan,blog,poetry,tamil
 description: குறும்புச் சக்கரம், காலச் சக்கரத்தை அடிப்படையாகக் கொண்டு ஒரு விந்தையான கதையை சொல்கிறது.
 pageType: poetry
 author_twitter: navilan
-published: 2025-05-06
-modified: 2025-05-06
+published: 2025-07-09
+modified: 2025-07-09
 ---
 <div class="row gld-12 teaser-only">
 ![குறும்புச் சக்கரம்](/$relToAbs("time-wheel.png")$)
