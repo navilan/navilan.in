@@ -116,6 +116,8 @@ writings = do
         ul ? do
           paddingLeft (rem 0.618)
 
+    pre ? do
+      sym padding (rem 0.618)
 
     blockquote ? do
       borderLeft (px 4) solid  pGray
