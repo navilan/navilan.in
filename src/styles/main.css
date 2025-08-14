@@ -278,6 +278,21 @@ h6 {
   @apply underline transition-colors;
 }
 
+.built-with-duct {
+  @apply mt-6 pt-4 border-t border-primary-content/20;
+}
+
+.duct-link {
+  @apply inline-flex items-center gap-2;
+  @apply text-primary-content/80 hover:text-accent;
+  @apply transition-colors duration-300;
+  @apply no-underline;
+}
+
+.duct-logo {
+  @apply h-8 w-auto;
+}
+
 /* Writings Grid Layout */
 .writings-grid {
   @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8;
@@ -459,6 +474,28 @@ h6 {
 
 .post-content :lang(ta) {
   @apply text-lg;
+}
+
+/* Back Navigation */
+.back-navigation {
+  @apply max-w-4xl mx-auto mt-12 mb-8;
+}
+
+.back-button {
+  @apply inline-flex items-center gap-2 px-4 py-2;
+  @apply bg-base-200 hover:bg-accent rounded-lg;
+  @apply text-base-content hover:text-accent-content;
+  @apply transition-all duration-300 no-underline;
+  @apply border border-base-300 hover:border-accent;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.back-icon {
+  @apply text-lg;
+}
+
+.back-text {
+  @apply text-sm font-medium;
 }
 
 /* Post Navigation */

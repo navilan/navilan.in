@@ -22,6 +22,14 @@
     </section>
   </article>
 
+  <!-- Back Button -->
+  <div class="back-navigation">
+    <a href="{{ '/' + page.lang + '/writings' }}" class="back-button">
+      <span class="back-icon">←</span>
+      <span class="back-text">Back to Writings</span>
+    </a>
+  </div>
+
   <!-- Post Navigation -->
   {% set allPosts = collections[page.collection_name] | sort(true, false, 'meta.date') | reverse %}
   {% set currentIndex = -1 %}
