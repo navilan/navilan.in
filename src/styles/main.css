@@ -1,0 +1,647 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@plugin "daisyui" {
+  themes: navilan --default;
+}
+
+@plugin "daisyui/theme" {
+  name: "navilan";
+  default: true;
+  prefersdark: false;
+  color-scheme: light;
+
+  /* Base colors - backgrounds and surfaces */
+  --color-base-100: oklch(97.5% 0.03 120);
+  /* #f5f9e9 - main background */
+  --color-base-200: oklch(95% 0.04 120);
+  /* slightly darker */
+  --color-base-300: oklch(90% 0.05 120);
+  /* #c2c1a5 area */
+  --color-base-content: oklch(15% 0.02 240);
+  /* #11151c - main text */
+
+  /* Primary - deep purple-brown */
+  --color-primary: oklch(35% 0.08 320);
+  /* #4a314d */
+  --color-primary-content: oklch(97% 0.02 120);
+  /* light text on primary */
+
+  /* Secondary - medium purple-gray */
+  --color-secondary: oklch(45% 0.04 280);
+  /* #6b6570 */
+  --color-secondary-content: oklch(97% 0.02 120);
+  /* light text on secondary */
+
+  /* Accent - muted olive green */
+  --color-accent: oklch(80% 0.05 100);
+  /* #c2c1a5 */
+  --color-accent-content: oklch(25% 0.04 320);
+  /* dark text on accent */
+
+  /* Neutral - balanced between primary and secondary */
+  --color-neutral: oklch(40% 0.06 300);
+  /* blend of primary colors */
+  --color-neutral-content: oklch(97% 0.02 120);
+
+  /* Status colors - adapted to fit the earthy palette */
+  --color-info: oklch(60% 0.15 240);
+  /* muted blue */
+  --color-info-content: oklch(97% 0.02 120);
+
+  --color-success: oklch(65% 0.15 140);
+  /* muted green */
+  --color-success-content: oklch(15% 0.02 140);
+
+  --color-warning: oklch(75% 0.15 80);
+  /* muted orange */
+  --color-warning-content: oklch(15% 0.02 80);
+
+  --color-error: oklch(60% 0.15 20);
+  /* muted red */
+  --color-error-content: oklch(97% 0.02 20);
+};
+
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  @apply flex flex-col min-h-screen;
+}
+
+/* Typography for Tamil */
+:lang(ta) {
+  font-family: 'Arima Madurai', 'Merriweather', serif;
+  @apply text-lg;
+}
+
+[lang="ta"] .writing p {
+  font-family: 'Arima Madurai', 'Merriweather', serif;
+  @apply text-lg;
+}
+
+.writing p:lang(ta) {
+  font-family: 'Arima Madurai', 'Merriweather', serif;
+  @apply text-lg;
+}
+
+.tamil {
+  font-family: 'Arima Madurai', 'Merriweather', serif;
+  @apply text-lg;
+}
+
+/* Tamil text in prose content */
+.prose :lang(ta) {
+  @apply text-lg;
+}
+
+/* Tamil text in card content */
+.card-title:lang(ta),
+.card-excerpt :lang(ta) {
+  @apply text-xl;
+}
+
+/* Tamil text in navigation */
+.nav-link:lang(ta),
+.lang-link:lang(ta) {
+  @apply text-lg;
+}
+
+/* Header Layout */
+.site-header {
+  @apply bg-primary relative flex flex-col items-center py-8 px-6;
+}
+
+.lang-menu {
+  @apply absolute top-0 right-6 flex items-end;
+}
+
+.lang-link {
+  @apply text-primary-content text-base px-4 py-2 border-t-4 border-transparent;
+  @apply hover:text-accent hover:border-accent transition-all duration-300;
+  @apply bg-primary/50 backdrop-blur-sm;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.lang-link.active {
+  @apply text-accent border-accent font-medium;
+  @apply bg-primary/80;
+}
+
+.lang-separator {
+  @apply hidden;
+}
+
+.site-branding {
+  @apply flex flex-col items-center gap-6 py-12;
+}
+
+.site-logo {
+  @apply w-24 h-24 md:w-32 md:h-32;
+}
+
+.site-titles {
+  @apply text-center;
+}
+
+.site-title {
+  @apply text-3xl md:text-4xl font-bold text-primary-content mb-2;
+}
+
+.site-subtitle {
+  @apply text-lg md:text-xl text-primary-content/90;
+  @apply font-normal italic;
+}
+
+.main-nav {
+  @apply flex justify-center gap-8 mt-6;
+  @apply text-base uppercase tracking-wider font-medium;
+}
+
+.nav-link {
+  @apply text-primary-content hover:text-accent;
+  @apply border-b-2 border-transparent hover:border-accent;
+  @apply pb-1 transition-all duration-300;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.nav-link.active {
+  @apply text-accent border-accent;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+/* Main Container */
+.main-container {
+  @apply max-w-6xl mx-auto px-6 py-8 flex-1;
+}
+
+/* Home Page Hero Section */
+.hero-section {
+  @apply grid grid-cols-1 md:grid-cols-3 gap-8 items-center mb-12;
+}
+
+.avatar-column {
+  @apply flex justify-center md:justify-end;
+}
+
+.avatar-image {
+  @apply w-48 h-48 md:w-56 md:h-56 rounded-full object-cover;
+  @apply border-4 border-accent shadow-lg;
+}
+
+.content-column {
+  @apply md:col-span-2 prose prose-lg max-w-none;
+  @apply text-base-content;
+}
+
+/* CTA Section */
+.cta-section {
+  @apply flex flex-col md:flex-row gap-6 justify-center items-center;
+  @apply mt-12;
+}
+
+.cta-button {
+  @apply flex flex-col items-center justify-center;
+  @apply px-8 py-6 min-w-[280px] rounded-lg;
+  @apply bg-base-100 text-base-content;
+  @apply hover:bg-base-200 transform hover:-translate-y-1;
+  @apply transition-all duration-300;
+  @apply shadow-sm hover:shadow-md;
+  @apply border border-base-300;
+}
+
+.cta-primary {
+  @apply text-xl font-light mb-2;
+  @apply font-serif;
+}
+
+.cta-secondary {
+  @apply text-sm opacity-90;
+  @apply font-light tracking-wide;
+}
+
+/* Footer */
+.site-footer {
+  @apply bg-primary text-primary-content;
+  @apply py-12 px-6;
+}
+
+.footer-content {
+  @apply max-w-4xl mx-auto text-center;
+}
+
+.social-links {
+  @apply flex justify-center gap-6 mb-8;
+}
+
+.social-link {
+  @apply block p-3 rounded-full;
+  @apply bg-secondary hover:bg-accent;
+  @apply transition-colors duration-300;
+}
+
+.social-icon {
+  @apply w-6 h-6 fill-primary-content;
+}
+
+.footer-copyright {
+  @apply text-center;
+}
+
+.copyright-text {
+  @apply text-primary-content mb-4;
+}
+
+.cc-badge {
+  @apply inline-block my-4;
+}
+
+.license-text {
+  @apply text-sm text-primary-content/80;
+}
+
+.license-text a {
+  @apply text-accent hover:text-secondary-content;
+  @apply underline transition-colors;
+}
+
+/* Writings Grid Layout */
+.writings-grid {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8;
+  @apply list-none p-0 m-0;
+}
+
+.card-image {
+  @apply aspect-square;
+  max-height: 360px;
+}
+
+.writing-card {
+  @apply h-full;
+}
+
+.card-image-link {
+  @apply block no-underline;
+}
+
+.card-title-link {
+  @apply text-base-content hover:text-accent;
+  @apply transition-colors duration-300 no-underline;
+}
+
+.card-content {
+  @apply bg-base-100 rounded-lg overflow-hidden shadow-md h-full;
+  @apply border border-base-300;
+  @apply flex flex-col;
+  @apply transform transition-all duration-300;
+  @apply hover:-translate-y-2 hover:shadow-xl;
+}
+
+.card-image {
+  @apply aspect-square overflow-hidden;
+  @apply bg-base-200;
+}
+
+.card-image img {
+  @apply w-full h-full object-cover;
+  @apply transition-transform duration-300;
+  @apply hover:scale-105;
+}
+
+.card-details {
+  @apply p-6 flex-1 flex flex-col items-center text-center;
+}
+
+.card-title {
+  @apply text-xl font-normal text-base-content mb-2;
+  @apply leading-tight text-center;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.card-date {
+  @apply text-sm text-base-content/70 mb-4;
+  @apply font-normal;
+}
+
+.card-excerpt {
+  @apply text-base-content/90 text-sm leading-relaxed mb-4;
+  @apply flex-1;
+}
+
+.card-excerpt figcaption {
+  @apply hidden;
+}
+
+.card-meta {
+  @apply mt-auto pt-4;
+}
+
+.lang-link-small {
+  @apply text-accent text-sm font-medium;
+  @apply hover:text-secondary transition-colors;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.small-text {
+  @apply text-base-content/60 text-xs italic;
+}
+
+/* Links within card content should be underlined */
+.card-excerpt a,
+.card-meta a:not(.lang-link-small) {
+  @apply underline;
+}
+
+.sound-cloud {
+  margin-top: 1rem;
+  padding: 1rem 0.1619rem;
+  @apply bg-primary/75;
+}
+
+/* YouTube Video Embedding */
+.youtube {
+  @apply relative w-full max-w-4xl mx-auto my-8;
+  @apply bg-black rounded-lg overflow-hidden shadow-lg;
+  aspect-ratio: 16 / 9;
+}
+
+.youtube iframe {
+  @apply absolute top-0 left-0 w-full h-full;
+  @apply border-0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .youtube {
+    @apply mx-4 rounded-md;
+    max-width: calc(100vw - 2rem);
+  }
+}
+
+@media (min-width: 768px) {
+  .youtube {
+    @apply shadow-xl;
+  }
+}
+
+/* Individual Writing Post Layout */
+.writing-post {
+  @apply max-w-4xl mx-auto;
+}
+
+.post-header {
+  @apply text-center mb-12 pb-8 border-b border-base-300;
+}
+
+.post-title {
+  @apply text-3xl md:text-4xl lg:text-5xl font-bold text-base-content mb-4;
+  @apply leading-tight;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.post-date {
+  @apply text-base text-base-content/70 font-normal;
+  @apply tracking-wide;
+}
+
+.post-lang-link {
+  @apply mt-4;
+}
+
+.other-lang-link {
+  @apply inline-block px-4 py-2 text-accent;
+  @apply border border-accent rounded-lg;
+  @apply hover:bg-accent hover:text-accent-content;
+  @apply transition-colors duration-300 no-underline;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.post-content {
+  @apply text-base-content;
+}
+
+/* Typography adjustments for prose */
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.post-content p {
+  @apply leading-relaxed;
+}
+
+/* Tamil typography within posts */
+.post-content p:lang(ta),
+.post-content .tamil,
+.post-content [lang="ta"] p,
+.post-content [lang="ta"] a,
+.post-content [lang="ta"] p * {
+  font-family: 'Arima Madurai', 'Merriweather', serif;
+  @apply text-lg;
+}
+
+.post-content :lang(ta) {
+  @apply text-lg;
+}
+
+/* Post Navigation */
+.post-navigation {
+  @apply max-w-4xl mx-auto mt-16 pt-8 border-t border-base-300;
+}
+
+.nav-links {
+  @apply grid grid-cols-1 md:grid-cols-2 gap-8;
+}
+
+.nav-link-wrapper {
+  @apply flex;
+}
+
+.post-navigation .nav-link {
+  @apply block p-6 bg-base-100 rounded-lg border border-base-300;
+  @apply hover:shadow-lg hover:border-accent transform hover:-translate-y-1;
+  @apply transition-all duration-300 no-underline;
+  @apply flex flex-col gap-2 w-full;
+}
+
+.post-navigation .next-post {
+  @apply md:ml-auto text-right;
+}
+
+.post-navigation .prev-post {
+  @apply mr-auto text-left;
+}
+
+.post-navigation .nav-direction {
+  @apply text-sm text-accent font-medium uppercase tracking-wide;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.post-navigation .nav-title {
+  @apply text-lg font-medium text-base-content;
+  @apply leading-tight;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.post-navigation .nav-date {
+  @apply text-sm text-base-content/60 font-normal;
+}
+
+/* Header anchors - hidden by default, shown on hover */
+.post-content.prose h1 .header-anchor,
+.post-content.prose h2 .header-anchor,
+.post-content.prose h3 .header-anchor,
+.post-content.prose h4 .header-anchor,
+.post-content.prose h5 .header-anchor,
+.post-content.prose h6 .header-anchor {
+  @apply opacity-0 ml-2 text-accent no-underline;
+  @apply transition-opacity duration-200;
+}
+
+.post-content.prose h1:hover .header-anchor,
+.post-content.prose h2:hover .header-anchor,
+.post-content.prose h3:hover .header-anchor,
+.post-content.prose h4:hover .header-anchor,
+.post-content.prose h5:hover .header-anchor,
+.post-content.prose h6:hover .header-anchor {
+  @apply opacity-100;
+}
+
+/* Grid Gallery for image collections */
+.grid-gallery {
+  @apply grid grid-cols-2 gap-4 my-8;
+  @apply max-w-2xl mx-auto;
+}
+
+.grid-gallery a {
+  @apply block rounded-lg overflow-hidden;
+  @apply hover:shadow-lg transition-shadow duration-300;
+}
+
+.grid-gallery img {
+  @apply w-full h-full object-cover aspect-square;
+  @apply transition-transform duration-300;
+  @apply hover:scale-105;
+}
+
+/* Pagination Controls */
+.pagination-nav {
+  @apply mt-16 pt-8 border-t border-base-300;
+}
+
+.pagination-controls {
+  @apply flex items-center justify-center gap-2 mb-4;
+  @apply flex-wrap;
+}
+
+.pagination-link {
+  @apply inline-flex items-center gap-2 px-4 py-2;
+  @apply bg-base-100 border border-base-300 rounded-lg;
+  @apply text-base-content hover:text-accent;
+  @apply hover:bg-base-200 hover:border-accent;
+  @apply transition-all duration-300 no-underline;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.pagination-prev,
+.pagination-next {
+  @apply font-medium;
+}
+
+.pagination-arrow {
+  @apply text-accent;
+}
+
+.pagination-numbers {
+  @apply flex gap-1 mx-4;
+}
+
+.pagination-number {
+  @apply w-10 h-10 flex items-center justify-center;
+  @apply border border-base-300 rounded-lg;
+  @apply transition-all duration-300;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.pagination-current {
+  @apply bg-accent text-accent-content border-accent;
+  @apply font-semibold;
+}
+
+.pagination-number:not(.pagination-current) {
+  @apply bg-base-100 text-base-content hover:text-accent;
+  @apply hover:bg-base-200 hover:border-accent no-underline;
+}
+
+.pagination-info {
+  @apply text-center;
+}
+
+.pagination-summary {
+  @apply text-sm text-base-content/70 font-normal;
+  @apply tracking-wide;
+}
+
+/* Responsive pagination */
+@media (max-width: 640px) {
+  .pagination-controls {
+    @apply flex-col gap-4;
+  }
+
+  .pagination-numbers {
+    @apply mx-0;
+  }
+
+  .pagination-text {
+    @apply hidden;
+  }
+}
+
+/* Story Cards for posts like Dear Son */
+.cards.story {
+  @apply flex flex-col gap-8 my-8;
+}
+
+.story.card {
+  @apply bg-white rounded-lg border border-base-300;
+  @apply p-6 shadow-lg;
+  @apply hover:shadow-xl transition-shadow duration-300;
+  @apply flex flex-col md:flex-row gap-6 items-center;
+}
+
+.story.card img {
+  @apply rounded-lg;
+  @apply object-cover;
+  @apply flex-1;
+
+
+}
+
+.story.card p,
+.story.card > *:not(img) {
+  @apply text-base-content leading-relaxed;
+  @apply whitespace-pre-line;
+  @apply flex-1;
+}
+
+/* Alternate layout for even cards */
+.story.card:nth-child(even) {
+  @apply md:flex-row-reverse;
+}

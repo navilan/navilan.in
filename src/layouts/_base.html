@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="{{ page.lang or 'en' }}">
+  {% include "_head.html" %}
+  <body>
+    {% include "_header.html" %}
+    {% block container %}
+    {% include "_container.html" %}
+    {% endblock %}
+    {% include "_footer.html" %}
+    {% include "_scripts.html" %}
+  </body>
+</html>

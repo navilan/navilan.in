@@ -1,0 +1,27 @@
+<header class="site-header">
+  <nav class="lang-menu">
+    <a href="/en" lang="en" class="lang-link {% if page.lang_en %}active{% endif %}" title="English">English</a>
+    <span class="lang-separator">|</span>
+    <a href="/ta" lang="ta" class="lang-link {% if page.lang_ta %}active{% endif %}" title="Tamil">தமிழ்</a>
+  </nav>
+
+  <div class="site-branding">
+    <a href="/" class="logo-link">
+      <span class="bg-white rounded-full">
+        <img src="/media/images/navilan-white.svg" alt="Navilan Logo" class="site-logo" />
+      </span>
+    </a>
+
+    <div class="site-titles">
+      <h1 class="site-title" lang="{{ page.lang }}">{{ page.lang_site_name }}</h1>
+      <h2 class="site-subtitle" lang="{{ page.lang }}">{{ page.lang_site_title }}</h2>
+    </div>
+  </div>
+
+  {% if not page.hide_menu %}
+  <nav class="main-nav">
+    <a href="/{{ page.lang }}" class="nav-link {% if page.page_about %}active{% endif %}" lang="{{ page.lang }}">{{ page.lang_about_name }}</a>
+    <a href="/{{ page.lang }}/writings" class="nav-link {% if page.page_writings %}active{% endif %}" lang="{{ page.lang }}">{{ page.lang_writings_name }}</a>
+  </nav>
+  {% endif %}
+</header>

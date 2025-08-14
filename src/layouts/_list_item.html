@@ -1,0 +1,40 @@
+{% if not post.meta.noList %}
+<li class="writing-card">
+  <article class="card-content">
+    {% if post.meta.image_source %}
+    <a href="{{ post.urlPath }}" class="card-image-link">
+      <div class="card-image">
+        <img src="{{ post.meta.image_source }}" alt="{{ post.meta.image_title }}" />
+      </div>
+    </a>
+    {% endif %}
+
+    <div class="card-details">
+      <h3 class="card-title">
+        <a href="{{ post.urlPath }}" class="card-title-link">{{ post.meta.title }}</a>
+      </h3>
+      <time class="card-date">{{ post.meta.date | date }}</time>
+
+      {% if post.excerpt %}
+      <div class="card-excerpt">
+        {{ post.excerpt | safe }}
+      </div>
+      {% endif %}
+
+      {% if post.meta.other_lang_link %}
+      <div class="card-meta">
+        <a href="{{ post.meta.other_lang_link }}" class="lang-link-small">
+          {{ post.meta.other_lang_text }}
+        </a>
+      </div>
+      {% endif %}
+
+      {% if post.meta.small_text %}
+      <div class="card-meta">
+        <span class="small-text">{{ post.meta.small_text }}</span>
+      </div>
+      {% endif %}
+    </div>
+  </article>
+</li>
+{% endif %}
