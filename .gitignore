@@ -6,3 +6,7 @@ _site
 _cache
 .stack*
 web/styles/clean
+CLAUDE.md
+.duct
+*.log
+.claude

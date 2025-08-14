@@ -1,0 +1,66 @@
+{% extends '_base.html' %}
+
+{% block container %}
+
+<main class="main-container {% if page.container_class %}{{ page.container_class }}{% endif %}">
+  <article class="writing-post">
+    <header class="post-header">
+      <h1 class="post-title">{{ page.title }}</h1>
+      <time class="post-date">{{ page.date | date }}</time>
+
+      {% if page.other_lang_link %}
+      <div class="post-lang-link">
+        <a href="{{ page.other_lang_link }}" class="other-lang-link">
+          {{ page.other_lang_text }}
+        </a>
+      </div>
+      {% endif %}
+    </header>
+
+    <section class="post-content prose prose-lg max-w-none">
+      {{ staticContent | safe }}
+    </section>
+  </article>
+
+  <!-- Post Navigation -->
+  {% set allPosts = collections[page.collection_name] | sort(true, false, 'meta.date') | reverse %}
+  {% set currentIndex = -1 %}
+  {% for post in allPosts %}
+    {% if post.urlPath == page.contentPath %}
+      {% set currentIndex = loop.index0 %}
+    {% endif %}
+  {% endfor %}
+
+  {% if currentIndex >= 0 %}
+  <nav class="post-navigation">
+    <div class="nav-links">
+      {% if currentIndex > 0 %}
+        {% set prevPost = allPosts[currentIndex - 1] %}
+        <div class="nav-link-wrapper">
+          <a href="{{ prevPost.urlPath }}" class="nav-link prev-post">
+            <span class="nav-direction">← Previous Post</span>
+            <span class="nav-title">{{ prevPost.meta.title }}</span>
+            <span class="nav-date">{{ prevPost.meta.date | date }}</span>
+          </a>
+        </div>
+      {% endif %}
+
+      {% if currentIndex < (allPosts | length) - 1 %}
+        {% set nextPost = allPosts[currentIndex + 1] %}
+        <div class="nav-link-wrapper">
+          <a href="{{ nextPost.urlPath }}" class="nav-link next-post">
+            <span class="nav-direction">Next Post →</span>
+            <span class="nav-title">{{ nextPost.meta.title }}</span>
+            <span class="nav-date">{{ nextPost.meta.date | date }}</span>
+          </a>
+        </div>
+      {% endif %}
+    </div>
+  </nav>
+  {% endif %}
+
+  <!-- Interactive content container -->
+  <div id="app">{{ interactiveContent | safe }}</div>
+</main>
+
+{% endblock %}

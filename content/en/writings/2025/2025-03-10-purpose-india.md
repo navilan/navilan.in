@@ -1,0 +1,80 @@
+---
+title: "The Purpose of India: What is our duty?"
+date: "2025-03-10"
+og_image: "/en/writings/2025/map/nalanda.jpg"
+tags: "navilan,blog,india,philosophy"
+description: "A deep dive into why India is essential in the large scheme of things?"
+pageType: "essay"
+author_twitter: "navilan"
+published: "2025-03-10"
+modified: "2025-03-10"
+image_source: "/en/writings/2025/map/nalanda.jpg"
+---
+
+In the [previous article][map of india], we explored India's intellectual history. What makes her India. In this one, I aim to highlight our purpose. Our duty. Our moral sanction. Our place in the scheme of things to restore a world that seems to have lost its balance and direction with immense polarization and division.
+
+[map of india]: ./2025-01-16-intellectual-india.html
+
+## The extraordinary place for India
+
+India is often referred to as a cradle of culture, religions and spirituality. In a techno-centric world of today, this may seem unappealing. Unless we wear the glasses from the past and switch our perspective.
+
+Let's take a trip to ancient times with the help of linguistics. The word technology [dates back to early 17th century][technology etymology], loosely translating to study of craft and art (Τεχνολογία = tékhnē + logíā). But we can go further back to biblical greek and we find the interesting word teknogonia which translates to the rearing of children which can be loosely interpreted as birthing of new ideas.
+
+When we look at history through this lens, culture, religion and spirituality are technologies. Technologies of peace, unity, harmony, creativity and enrichment. [Nalanda][], along with [Taxilla][] and [Vikramashila][] were at the technological forefront during their times. Influencing not just the subcontinent but most of the world by preaching peace during barbarism, bringing people together amidst division, unifying lands without conquest, capturing minds with fresh ideas of well-being and creativity instead of capturing lands with strength and power.
+
+These ideas were not just about spirituality and religion. They encompassed a variety of fields including linguistics, mathematics, logic, music, marital arts, yoga, medicine and astronomy.
+
+[technology etymology]: https://en.wikipedia.org/wiki/Technology
+[Taxilla]: https://en.wikipedia.org/wiki/Taxila
+[Nalanda]: https://en.wikipedia.org/wiki/Nalanda
+[Vikramashila]: https://en.wikipedia.org/wiki/Vikramashila
+
+With the birthing of these new ideas, the land we now call India exerted extraordinary cultural and intellectual influence through trade routes, missionaries and some conquests.
+
+In a sense, India was responsible for producing many a seed that winds of time spread across the world to create peace and harmony. She was also a welcoming host, accepting seeds from other lands and letting them thrive, cross-breed, mutate into new plants and flowers.
+
+Her place in this world is to be the cradle of new ideas that bring people together.
+
+## It is time to dream
+
+![Indian Punk](/en/writings/2025/purpose/indian-punk-1.png)
+
+It is now the time for the birthing of a new India. One that is necessary in an increasingly divisive world. A world that is craving for a new solution. A world that is increasingly discontent. A world that is plagued by a loneliness epidemic. A world that is in search for meaning. A world that is in pursuit of happiness. A world that is in a quest for purpose.
+
+![Indian Punk](/en/writings/2025/purpose/indian-punk-3.png)
+
+It is time for India to rise up to its calling. To resume its role as the cradle of new ideas. To show the world a large number of solutions to existential problems. To become the center of happiness. To cultivate the blooming flower of creativity that brings humanity together beyond the divisions singing in harmony. To embrace the many flowers across the world with open arms and cherish their beauty as well.
+
+![Indian Punk](/en/writings/2025/purpose/indian-punk-2.png)
+
+To rise up to its calling, the seeds need to be planted at home. India has to come together as one people. Not by erasing identities, but with a common unifying purpose([Mimamsa][]) that transcends those identities.
+
+[Mimamsa]: ./2025-01-16-intellectual-india.html#mimamsa
+
+## Pursuit of the many truths
+
+These seeds ought to be planted in as many fertile fields as possible. Just as we did in the past at [Nalanda][]. We need to [learn from the past][past] without losing what we know now. Take the good things from the many worlds, become alchemists to germinate new seeds of change and harmony.
+
+![The Many Truths?](/en/writings/2025/purpose/pathways.png)
+
+[past]: ../2024/2024-07-18-learning-from-the-past.html
+
+## The World of Puthir
+
+![World of Puthir](/en/writings/2025/purpose/world-of-puthir.jpg)
+
+In that sense, [Puthir](https://puthir.org) was a mini-world that was created to seed some of these ideas that brought children (and their parents) together. New ideas were generated by the children and the facilitators with physical objects, programming, theater, debates, argumentation and game play.
+
+[SocratiQ](https://socratiq.ai) brought technology into the mix allowing exploratory learning along both sides of the intelligence boundary.
+
+This world can manifest in a broader sense by bringing intelligences together to dream daringly, toil with joy, create with purpose and build to last. Not in one go. Not in a hurry. But in due course collaborating with the rest of the world.
+
+It is time for harmonious building, learning, progress, peace and fulfillment. And the bourgeoning youth of India offers a great platform to experiment with a brand new story that stitches the glory of the past with the gifts of the present and the dreams of a brilliant future.
+
+I say this with empowering humility and undeniable gratitude
+in the same vein as my fellow dreamer from a century and change back, Subramaniya Bharathi  - let's dream, let's flourish.
+
+::: youtube
+https://www.youtube.com/embed/s7Xtkuc8k_k?si=rNusxRTFSJHe1J0P
+:::

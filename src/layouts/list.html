@@ -1,0 +1,21 @@
+{% extends "_base.html" %}
+{% from "_macros.html" import paginated_listing %}
+
+{% block container %}
+<main class="main-container {% if page.container_class %}{{ page.container_class }}{% endif %}">
+  {% if page.postsPerPage %}
+    {% set currentPage = page.currentPage or 1 %}
+    {% set baseUrl = '/' + page.collection_name %}
+    {{ paginated_listing(collections[page.collection_name], page.postsPerPage, currentPage, baseUrl, "_list_item.html") }}
+  {% else %}
+    <ul class="writings-grid">
+      {% for post in collections[page.collection_name] %}
+      {% include "_list_item.html" %}
+      {% endfor %}
+    </ul>
+  {% endif %}
+  <div id="app">
+    {% block content %}{{content | safe}}{% endblock %}
+  </div>
+</main>
+{% endblock %}
