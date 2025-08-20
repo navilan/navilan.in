@@ -22,14 +22,6 @@
     </section>
   </article>
 
-  <!-- Back Button -->
-  <div class="back-navigation">
-    <a href="{{ '/' + page.lang + '/writings' }}" class="back-button">
-      <span class="back-icon">←</span>
-      <span class="back-text">Back to Writings</span>
-    </a>
-  </div>
-
   <!-- Post Navigation -->
   {% set allPosts = collections[page.collection_name] | sort(true, false, 'meta.date') | reverse %}
   {% set currentIndex = -1 %}
@@ -42,11 +34,19 @@
   {% if currentIndex >= 0 %}
   <nav class="post-navigation">
     <div class="nav-links">
+      <!-- Back Button -->
+      <div class="nav-link-wrapper back-wrapper">
+        <a href="{{ '/' + page.lang + '/writings' }}" class="nav-link back-home">
+          <span class="nav-direction">↑ {{ page.lang_nav_back_to_writings }}</span>
+          <span class="nav-title">{{ allPosts | length }} {{ page.lang_posts_count }}</span>
+        </a>
+      </div>
+
       {% if currentIndex > 0 %}
         {% set prevPost = allPosts[currentIndex - 1] %}
-        <div class="nav-link-wrapper">
+        <div class="nav-link-wrapper prev-wrapper">
           <a href="{{ prevPost.urlPath }}" class="nav-link prev-post">
-            <span class="nav-direction">← Previous Post</span>
+            <span class="nav-direction">← {{ page.lang_nav_previous_post }}</span>
             <span class="nav-title">{{ prevPost.meta.title }}</span>
             <span class="nav-date">{{ prevPost.meta.date | date }}</span>
           </a>
@@ -55,9 +55,9 @@
 
       {% if currentIndex < (allPosts | length) - 1 %}
         {% set nextPost = allPosts[currentIndex + 1] %}
-        <div class="nav-link-wrapper">
+        <div class="nav-link-wrapper next-wrapper">
           <a href="{{ nextPost.urlPath }}" class="nav-link next-post">
-            <span class="nav-direction">Next Post →</span>
+            <span class="nav-direction">{{ page.lang_nav_next_post }} →</span>
             <span class="nav-title">{{ nextPost.meta.title }}</span>
             <span class="nav-date">{{ nextPost.meta.date | date }}</span>
           </a>

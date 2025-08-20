@@ -10,12 +10,10 @@ other_lang_text: "In English"
 
 <!--more-->
 
-<div class="youtube">
-<iframe src="https://www.youtube.com/embed/LcUZHmCqSLY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
-</div>
+::: youtube
+https://www.youtube.com/embed/LcUZHmCqSLY
+:::
 
-<div class="youtube">
-<iframe src="https://www.youtube.com/embed/ksv2tZL2cKc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
-</div>
+::: youtube
+https://www.youtube.com/embed/ksv2tZL2cKc
+:::

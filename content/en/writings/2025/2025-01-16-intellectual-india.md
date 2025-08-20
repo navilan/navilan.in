@@ -19,11 +19,9 @@ The vastness of the land we now call India in terms of time and space makes her 
 
 You can view a condensed map of an intellectual India below (zoom and pan to view details). While I'd love to see and present a complete map, limited by my interests and knowledge, this nevertheless is extremely useful and sufficient for the arguments that I will put forth. If you have any corrections or major additions you'd like to see, please [email me](mailto:navilan@folds.in) and I will take them into consideration.
 
-<div class="zoomable fullwidth">
-
+::: zoomable-fullwidth
 ![Intellectual Map of India](/en/writings/2025/map/intellectual-map.svg)
-
-</div>
+:::
 
 <small>
 Note: This section introduces in a crisp fashion the many ideas in the map without going into details. I will expound on some of these where necessary in later parts. If you are curious and have the time, you can follow the links into rabbit holes and you'll come away with a better understanding.
@@ -175,10 +173,9 @@ Is it Varna? The hierarchical system of social responsibilities? Can't be. It wi
 
 Is it Dharma? The system of rules established by the vedas and expounded in later literature? Not quite. The Vedas were continuously interpreted and it will be impossible to come to a conclusion on "What is Dharma" if we bring together all the sects. Here is a clip of someone more decorated than me stating it:
 
-<div class='embed-container'>
-<iframe src='https://www.youtube.com/embed/X5LHwS9iYKU?start=405&amp;end=415' frameborder='0' allowfullscreen>
-</iframe>
-</div>
+::: youtube
+https://www.youtube.com/embed/X5LHwS9iYKU?start=405&end=415
+:::
 
 [The entire video](https://www.youtube.com/watch?v=X5LHwS9iYKU&t=1s) is well presented and a great watch if you are interested in this topic.
 

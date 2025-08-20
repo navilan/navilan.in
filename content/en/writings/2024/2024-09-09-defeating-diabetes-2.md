@@ -21,15 +21,15 @@ If you have not read my [initial post][] on my diagnosis and first steps towards
 
 Since my last post, I've lost well over 3kgs, built some muscle and am on my way towards hitting my targeted goals.
 
-<div class="row-wise">
+::: row-wise
 ![Weight](/en/writings/2024/diabetes/weight-2.jpg)
 ![Stats](/en/writings/2024/diabetes/report-2.jpg)
-</div>
+:::
 
-<div class="row-wise">
+::: row-wise
 ![Progress](/en/writings/2024/diabetes/progress-2.jpg)
 ![Awards](/en/writings/2024/diabetes/awards-2.jpg)
-</div>
+:::
 
 In comparison:
 
@@ -40,10 +40,10 @@ In comparison:
 
 &nbsp;
 
-<div class="row-wise">
+::: row-wise
 ![Sugar Range - Aug](/en/writings/2024/diabetes/glucose-68.jpg)
 ![Sugar Range - Sep](/en/writings/2024/diabetes/glucose-99.jpg)
-</div>
+:::
 
 ## Workout Routine
 
@@ -59,15 +59,15 @@ I got lucky. A well equipped, clean, sufficiently-staffed Gym opened up recently
 
 [DJ]: https://djfitnessstudio.in/
 
-<div class="row-wise wider">
+::: row-wise-wider
 ![DJ Building](/en/writings/2024/diabetes/dj-building.jpg)
 ![DJ Ground](/en/writings/2024/diabetes/dj_ground.jpg)
-</div>
+:::
 
-<div class="row-wise wider">
+::: row-wise-wider
 ![DJ First](/en/writings/2024/diabetes/dj_first_floor.jpg)
 ![DJ Cardio](/en/writings/2024/diabetes/dj_cardio.jpg)
-</div>
+:::
 
 ## Dietary Changes
 
@@ -75,10 +75,10 @@ Given the additional focus on muscle building, I've upped my protein intake to 1
 
 While we have cooked Shirataki noodles before as a novelty, I rediscovered it as part of my diabetes research and boy, what a magical gift that is. Yum! For those that are not in the know, it is technically 0% carb and delectably 100% noodley.
 
-<div class="row-wise wider">
+::: row-wise-wider
 ![Hearty Double Sunny-side up](/en/writings/2024/diabetes/hearty-sunny.jpg)
 ![Shirataki Noodles](/en/writings/2024/diabetes/shirataki.jpg)
-</div>
+:::
 
 ## Tracking Tools
 
@@ -86,9 +86,9 @@ I'm now using the [One Drop app][] to log and track my blood glucose. While the 
 
 [One Drop app]: https://onedrop.today/
 
-<div class="row-wise">
+::: row-wise
 ![One Drop Goal View](/en/writings/2024/diabetes/one-drop.jpg)
-</div>
+:::
 
 ## Next Steps
 

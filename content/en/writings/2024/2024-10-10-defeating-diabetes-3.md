@@ -22,9 +22,7 @@ This is a continuation of a series of articles. Read [Part 1][] and [Part 2][] i
 
 This was a big month as I had a doctor's review. I'm glad to report that my plan continues to exceed expectations.
 
-<div class="row-wise full">
 ![HBA1c October](/en/writings/2024/diabetes/hba1c-oct.jpg)
-</div>
 
 Here is the comparative report:
 
@@ -40,11 +38,10 @@ There is a very high chance that in the next assessment, I will be free of medic
 
 While my cute little weighing scale and the companion app have given me continuous indication of my progress in weight loss and body composition, they are approximations nevertheless. Dexa scans, however, provide a lot more accuracy and detail.
 
-<div class="col-wise full">
-
+::: col-wise-full
 ![Dexa July](/en/writings/2024/diabetes/jul-dexa.jpg "July")
 ![Dexa October](/en/writings/2024/diabetes/oct-dexa.jpg "October")
-</div>
+:::
 
 In comparison:
 
@@ -61,12 +58,10 @@ My initial diagnosis also revealed that I had Grade 1 Fatty Liver. The changes i
 
 My resting heart rate is between 50 and 70 and blood pressure is at 110/70. All of these are good indicators of a system working well. My waist circumference has decreased significantly giving a visual indicator of progress in reduction of visceral fat.
 
-<div class="row-wise">
-
+::: row-wise
 ![Waist](/en/writings/2024/diabetes/waist-oct.jpg)
 ![Awards](/en/writings/2024/diabetes/awards-oct.jpg)
-
-</div>
+:::
 
 ## Workout Routines
 
@@ -78,18 +73,18 @@ One thing that I am proud to share is that alongside the rowing machine, I've ad
 
 I've now upgraded to [Accu-Check Instant Glucometer][Accucheck] with Bluetooth integration and the companion my sugar app. I've been tracking my sugar level almost on a continuous basis over the past month to understand how my body reacts to different foods at different times.
 
-<div class="row-wise wider">
+::: row-wise-wider
 ![Accu-check Instant](/en/writings/2024/diabetes/accu-check.jpg)
-</div>
+:::
 
 [Accucheck]: https://amzn.to/4dDKGBX
 
 Furthermore, I've also increased the quantity and richness of food. I eat 3 whole eggs before workout and 4 egg whites after, along with more protein enrichment throughout the day. I've also added a generous amount of desserts with dates for sweetness prepared lovingly by my wonderful wife.
 
-<div class="row-wise wider">
+::: row-wise-wider
 ![My sugar 1](/en/writings/2024/diabetes/mysugar-1.jpg)
 ![My sugar 2](/en/writings/2024/diabetes/mysugar-2.jpg)
-</div>
+:::
 
 ## Diabetes Defeated?
 

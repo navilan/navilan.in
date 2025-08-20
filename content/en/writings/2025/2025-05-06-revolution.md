@@ -87,7 +87,6 @@ Isn't it revolution? When waters rage?
 
 </details>
 
-<div class="youtube">
-<iframe src="https://www.youtube.com/embed/3c1NLWTfczs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
-</div>
+::: youtube
+https://www.youtube.com/embed/3c1NLWTfczs
+:::

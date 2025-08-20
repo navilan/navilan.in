@@ -17,16 +17,16 @@ Over the past year or so, I've been busy building [SocratiQ][] in an effort to r
 
 [SocratiQ]: https://socratiq.ai
 
-<div class="col-wise wider">
+::: col-wise-wider
 ![HbA1c Shocker](/en/writings/2024/diabetes/high-hba1c.jpg)
 ![High Blood Glucose](/en/writings/2024/diabetes/high-blood-glucose.jpg)
-</div>
+:::
 
 My weight hasn't changed much since my youth; however, I realized that since COVID times, I gradually replaced muscle with fat, leading to the current situation.
 
-<div class="row-wise">
+::: row-wise-wider
 ![Starting Weight](/en/writings/2024/diabetes/weight-start.jpg)
-</div>
+:::
 
 The doctor laid it all out in front of me:
 
@@ -43,9 +43,9 @@ Since then, I've made diffusing diabetes a short-term priority and reconfiguring
 
 Determined to bring the organic matter under control, I sketched out a reasonable plan that could be put into effect tailored to my unique challenges. I'm happy to report that I've tamed the diabetes dragon and have a plan to keep it tucked away deep underground.
 
-<div class="row-wise full">
+::: row-wise-full
 ![Under Control](/en/writings/2024/diabetes/under-control-hba1c.jpg)
-</div>
+:::
 
 In comparison:
 
@@ -60,11 +60,11 @@ In comparison:
 
 This progress is also mirrored in my health stats:
 
-<div class="row-wise">
+::: row-wise
 ![Weight](/en/writings/2024/diabetes/weight.jpg)
 ![Stats](/en/writings/2024/diabetes/stats.jpg)
 ![Progress](/en/writings/2024/diabetes/progress.jpg)
-</div>
+:::
 
 &nbsp;
 
@@ -102,16 +102,16 @@ I've completely reconfigured my diet to match my activity and weight loss needs.
 
 I have a spinal fixation from 25 years back that significantly limits my workout options. Fortunately, unlike my past years where I had lost a lot of progress due to injuries, the higher protein intake in my diet has helped me maintain a good streak.
 
-<div class="row-wise">
+::: row-wise-wider
 ![Fixation](/en/writings/2024/diabetes/fixation.jpg)
-</div>
+:::
 
 My workout routine is tailored for me to work on both my cardio fitness and strength training while decreasing the risk of injury. It's given me good results. I've been able to scale up or down based on the day's pains, gains, and needs.
 
-<div class="row-wise">
+::: row-wise
 ![Treadmill](/en/writings/2024/diabetes/treadmill.jpg)
 ![Multigym](/en/writings/2024/diabetes/multi-gym.jpg)
-</div>
+:::
 
 I begin my workout with an extensive mobility routine that goes up to 15 - 20 minutes. I get to gauge aches and readiness while warming up my body.
 
@@ -121,10 +121,10 @@ A 520-calorie treadmill walk @4.5 km/hr, 15 incline for some decent cardio follo
 
 The pulleys, sitting-posture, conservative weighting, and controlled release have helped me minimize injuries and keep my streak going. I've been able to increase the weights and/or reps every 30 days.
 
-<div class="row-wise">
+::: row-wise
 ![Activity](/en/writings/2024/diabetes/life-style-1.jpg)
 ![Awards](/en/writings/2024/diabetes/life-style-2.jpg)
-</div>
+:::
 
 ## Trusty Tools
 
@@ -132,9 +132,9 @@ In order to track the progress towards my goals, I've leaned on tools that are e
 
 ### Weighing Machine
 
-<div class="row-wise">
+::: row-wise
 [![Weighing Machine](/en/writings/2024/diabetes/health-sense.jpg)](https://amzn.to/4dpzObf)
-</div>
+:::
 
 I have a weighing machine thats affordable, connects to my iPhone via Bluetooth and has Apple Health integration. Apart from the weight (which I have found to be quite reliable), it also has several other measures, including BMI, Body Fat, Muscle%, etc.
 
@@ -144,9 +144,9 @@ It's not hard to fit a continuous curve based on this detection, but for my purp
 
 ### Glucose Monitor
 
-<div class="row-wise">
+::: row-wise
 [![Glucose Monitor](/en/writings/2024/diabetes/more-pen.jpg)](https://amzn.to/4d64eQ7)
-</div>
+:::
 
 I use an inexpensive but effective glucose monitor. Since I only take readings when I'm iffy about how I feel (I'm now mostly aware of both hyper/hypo situations), I didn't need Bluetooth integration. I add the data directly in Apple Health.
 
@@ -163,20 +163,17 @@ I believe that getting my body back to a more optimal state for the longer term 
 
     My cozy gym and favorite equipment unfortunately are not quite enough for the task at hand. Time to upgrade.
 
-    <div class="row-wise full">
-
-    ![New Workout](/en/writings/2024/diabetes/skirow30.jpg)
-
-    </div>
+::: row-wise-full
+![New Workout](/en/writings/2024/diabetes/skirow30.jpg)
+:::
 
 2. **Weight loss**:
 
     I've met the recommended goal to lose 10 kg. However, my estimates predict that losing an additional 6 kg while increasing muscle composition will help me achieve normalcy-restoring outcomes.
 
-    <div class="row-wise full">
-
-    ![Weight Goal](/en/writings/2024/diabetes/weight-goal.jpg)
-    </div>
+::: row-wise-full
+![Weight Goal](/en/writings/2024/diabetes/weight-goal.jpg)
+:::
 
 3. **Energy levels**:
     I'm happy that my dosage is lowered. A complete, continued, and verified remission will help me get rid of medication and restore my body's autonomy in managing energy levels.

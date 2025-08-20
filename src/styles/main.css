@@ -415,6 +415,7 @@ h6 {
 /* Individual Writing Post Layout */
 .writing-post {
   @apply max-w-4xl mx-auto;
+  min-width: min(960px, 100vw);
 }
 
 .post-header {
@@ -476,7 +477,7 @@ h6 {
   @apply text-lg;
 }
 
-/* Back Navigation */
+/* Legacy Back Navigation (kept for compatibility) */
 .back-navigation {
   @apply max-w-4xl mx-auto mt-12 mb-8;
 }
@@ -504,11 +505,26 @@ h6 {
 }
 
 .nav-links {
-  @apply grid grid-cols-1 md:grid-cols-2 gap-8;
+  @apply grid grid-cols-1 md:grid-cols-3 gap-4;
 }
 
 .nav-link-wrapper {
   @apply flex;
+}
+
+/* Back button always in first column */
+.nav-link-wrapper.back-wrapper {
+  @apply md:col-start-1;
+}
+
+/* Previous post in second column when it exists */
+.nav-link-wrapper.prev-wrapper {
+  @apply md:col-start-2;
+}
+
+/* Next post always in third column */
+.nav-link-wrapper.next-wrapper {
+  @apply md:col-start-3;
 }
 
 .post-navigation .nav-link {
@@ -516,6 +532,12 @@ h6 {
   @apply hover:shadow-lg hover:border-accent transform hover:-translate-y-1;
   @apply transition-all duration-300 no-underline;
   @apply flex flex-col gap-2 w-full;
+}
+
+/* Tall back home button */
+.post-navigation .back-home {
+  @apply h-full flex items-center justify-center;
+  @apply min-h-24;
 }
 
 .post-navigation .next-post {
@@ -649,6 +671,136 @@ h6 {
   .pagination-text {
     @apply hidden;
   }
+}
+
+/* Image Container Classes - Based on original site styles */
+/* Note: Original CSS targeted .writing .row-wise p, but our containers directly wrap images */
+
+.row-wise {
+  @apply flex flex-row gap-2 justify-center items-center content-center my-8;
+}
+
+.row-wise p {
+  @apply flex flex-row gap-2 justify-center items-center content-center m-0;
+}
+
+.row-wise img,
+.row-wise p img,
+.row-wise figure img,
+.post-content .row-wise img {
+  @apply m-0 h-auto rounded-lg shadow-md inline-block;
+  max-width: 30%;
+  display: inline-block !important;
+}
+
+.row-wise-wider {
+  @apply flex flex-row gap-2 justify-center items-center content-center my-8;
+  @apply flex-wrap;
+}
+
+.row-wise-wider p {
+  @apply flex flex-row gap-2 justify-center items-center content-center m-0 w-full;
+  @apply flex-wrap;
+}
+
+.row-wise-wider img,
+.row-wise.wider img,
+.post-content .row-wise-wider img {
+  @apply m-0 h-auto rounded-lg shadow-md inline-block;
+  max-width: calc(50% - 0.25rem);
+  flex: 0 1 calc(50% - 0.25rem);
+  display: inline-block !important;
+}
+
+.row-wise-full {
+  @apply flex flex-row gap-2 justify-center items-center content-center my-8;
+  @apply flex-wrap;
+}
+
+.row-wise-full p {
+  @apply flex flex-row gap-2 justify-center items-center content-center m-0;
+  @apply flex-wrap;
+}
+
+.row-wise-full img,
+.row-wise.full img {
+  @apply m-0 h-auto rounded-lg shadow-md;
+  max-width: 100%;
+  flex-basis: 100%;
+}
+
+.col-wise {
+  @apply flex flex-col gap-2 justify-center items-center content-center my-8;
+}
+
+.col-wise p {
+  @apply flex flex-col gap-2 justify-center items-center content-center m-0;
+}
+
+.col-wise img,
+.col-wise p img,
+.col-wise figure img {
+  @apply m-0 h-auto rounded-lg shadow-md;
+  max-width: 30%;
+}
+
+.col-wise-wider {
+  @apply flex flex-col gap-2 justify-center items-center content-center my-8;
+}
+
+.col-wise-wider p {
+  @apply flex flex-col gap-2 justify-center items-center content-center m-0;
+}
+
+.col-wise-wider img,
+.col-wise.wider img {
+  @apply m-0 h-auto rounded-lg shadow-md;
+  max-width: 50%;
+}
+
+.col-wise-full {
+  @apply flex flex-col gap-2 justify-center items-center content-center my-8;
+}
+
+.col-wise-full p {
+  @apply flex flex-col gap-2 justify-center items-center content-center m-0;
+}
+
+.col-wise-full img,
+.col-wise.full img {
+  @apply m-0 h-auto rounded-lg shadow-md;
+  max-width: 100%;
+}
+
+.fullwidth img,
+.zoomable.fullwidth img {
+  @apply w-full h-auto;
+}
+
+/* General writing/post image styles */
+.writing-post > img,
+.post-content > img {
+  @apply max-w-full mx-auto block;
+}
+
+/* Center images within paragraphs in prose content */
+.post-content.prose > p > img {
+  @apply mx-auto block;
+}
+
+.writing-post img.small,
+.post-content img.small {
+  max-height: 400px;
+}
+
+.writing-post.essay img,
+.post-content.essay img {
+  max-height: 600px;
+}
+
+.writing-post.essay img.small,
+.post-content.essay img.small {
+  max-height: 400px;
 }
 
 /* Story Cards for posts like Dear Son */

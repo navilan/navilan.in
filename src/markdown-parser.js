@@ -112,6 +112,214 @@ export function createMarkdownParser() {
     }
   })
 
+  // Add image layout containers
+  md.use(markdownItContainer, 'row-wise', {
+    validate: function(params) {
+      return params.trim().match(/^row-wise$/);
+    },
+    render: function (tokens, idx) {
+      if (tokens[idx].nesting === 1) {
+        return '<div class="row-wise">\n';
+      } else {
+        return '</div>\n';
+      }
+    }
+  })
+
+  md.use(markdownItContainer, 'row-wise-wider', {
+    validate: function(params) {
+      return params.trim().match(/^row-wise-wider$/);
+    },
+    render: function (tokens, idx) {
+      if (tokens[idx].nesting === 1) {
+        return '<div class="row-wise-wider">\n';
+      } else {
+        return '</div>\n';
+      }
+    }
+  })
+
+  md.use(markdownItContainer, 'row-wise-full', {
+    validate: function(params) {
+      return params.trim().match(/^row-wise-full$/);
+    },
+    render: function (tokens, idx) {
+      if (tokens[idx].nesting === 1) {
+        return '<div class="row-wise-full">\n';
+      } else {
+        return '</div>\n';
+      }
+    }
+  })
+
+  md.use(markdownItContainer, 'col-wise', {
+    validate: function(params) {
+      return params.trim().match(/^col-wise$/);
+    },
+    render: function (tokens, idx) {
+      if (tokens[idx].nesting === 1) {
+        return '<div class="col-wise">\n';
+      } else {
+        return '</div>\n';
+      }
+    }
+  })
+
+  md.use(markdownItContainer, 'col-wise-wider', {
+    validate: function(params) {
+      return params.trim().match(/^col-wise-wider$/);
+    },
+    render: function (tokens, idx) {
+      if (tokens[idx].nesting === 1) {
+        return '<div class="col-wise-wider">\n';
+      } else {
+        return '</div>\n';
+      }
+    }
+  })
+
+  md.use(markdownItContainer, 'col-wise-full', {
+    validate: function(params) {
+      return params.trim().match(/^col-wise-full$/);
+    },
+    render: function (tokens, idx) {
+      if (tokens[idx].nesting === 1) {
+        return '<div class="col-wise-full">\n';
+      } else {
+        return '</div>\n';
+      }
+    }
+  })
+
+  md.use(markdownItContainer, 'fullwidth', {
+    validate: function(params) {
+      return params.trim().match(/^fullwidth$/);
+    },
+    render: function (tokens, idx) {
+      if (tokens[idx].nesting === 1) {
+        return '<div class="fullwidth">\n';
+      } else {
+        return '</div>\n';
+      }
+    }
+  })
+
+  md.use(markdownItContainer, 'zoomable-fullwidth', {
+    validate: function(params) {
+      return params.trim().match(/^zoomable-fullwidth$/);
+    },
+    render: function (tokens, idx) {
+      if (tokens[idx].nesting === 1) {
+        return '<div class="zoomable fullwidth">\n';
+      } else {
+        return '</div>\n';
+      }
+    }
+  })
+
+  md.use(markdownItContainer, 'youtube', {
+    validate: function(params) {
+      return params.trim().match(/^youtube$/);
+    },
+    render: function (tokens, idx) {
+      if (tokens[idx].nesting === 1) {
+        // opening tag - find and process all tokens until closing
+        let content = '';
+        let closeIdx = -1;
+        
+        // Find the closing container token
+        for (let i = idx + 1; i < tokens.length; i++) {
+          if (tokens[i].type === 'container_youtube_close') {
+            closeIdx = i;
+            break;
+          }
+        }
+        
+        // Process all tokens between open and close, extracting URL and hiding them
+        for (let i = idx + 1; i < closeIdx; i++) {
+          const token = tokens[i];
+          
+          if (token.type === 'paragraph_open') {
+            const inlineToken = tokens[i + 1];
+            if (inlineToken && inlineToken.type === 'inline') {
+              // Check for linkified content in children
+              if (inlineToken.children && inlineToken.children.length > 0) {
+                const linkToken = inlineToken.children.find(t => t.type === 'link_open');
+                if (linkToken) {
+                  content = linkToken.attrGet('href');
+                } else if (inlineToken.content) {
+                  content = inlineToken.content.trim();
+                }
+              } else if (inlineToken.content) {
+                content = inlineToken.content.trim();
+              }
+            }
+            
+            // Clear the tokens completely
+            tokens[i].content = '';     // paragraph_open
+            tokens[i + 1].content = ''; // inline
+            tokens[i + 1].children = []; // clear children to prevent linkify
+            tokens[i + 2].content = ''; // paragraph_close
+            i += 2; // Skip the cleared tokens
+          } else if (token.type === 'inline' && token.content) {
+            content = token.content.trim();
+            token.content = '';
+            token.children = [];
+          }
+        }
+        
+        if (content) {
+          // Extract video ID and preserve query parameters
+          let videoId = '';
+          let queryParams = '';
+          
+          if (content.includes('youtube.com/embed/')) {
+            const parts = content.split('embed/')[1];
+            videoId = parts.split(/[?&]/)[0];
+            if (parts.includes('?')) {
+              queryParams = '?' + parts.split('?')[1];
+            }
+          } else if (content.includes('youtube.com/watch?v=')) {
+            const urlParams = new URLSearchParams(content.split('?')[1]);
+            videoId = urlParams.get('v');
+            urlParams.delete('v');
+            const timeParam = urlParams.get('t');
+            if (timeParam) {
+              urlParams.delete('t');
+              urlParams.set('start', timeParam.replace('s', ''));
+            }
+            const params = urlParams.toString();
+            if (params) {
+              queryParams = '?' + params;
+            }
+          } else if (content.includes('youtu.be/')) {
+            const parts = content.split('youtu.be/')[1];
+            videoId = parts.split(/[?&]/)[0];
+            if (parts.includes('?')) {
+              queryParams = '?' + parts.split('?')[1];
+            }
+          } else {
+            const parts = content.split('?');
+            videoId = parts[0];
+            if (parts[1]) {
+              queryParams = '?' + parts[1];
+            }
+          }
+          
+          if (videoId) {
+            return `<div class="youtube">
+<iframe src="https://www.youtube.com/embed/${videoId}${queryParams}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>\n`;
+          }
+        }
+        
+        return '<div class="youtube">\n';
+      } else {
+        // closing tag
+        return '</div>\n';
+      }
+    }
+  })
+
   // Add custom renderer to demote headings by one level
   const defaultHeadingOpenRenderer = md.renderer.rules.heading_open || function(tokens, idx, options, env, renderer) {
     return renderer.renderToken(tokens, idx, options);

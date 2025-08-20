@@ -27,10 +27,9 @@ long time, when I had to add a voice to the streams of thoughts that came someti
 
 Unfortunately, my audiences were now accustomed to listening to poetry *only* in the form of movie songs with accompanying dance numbers and poetry reading became a hard to find if not lost art. To engage my audience, I added photographs or digital graphic to capture their attention. Sometimes, when the poetry was long, I added music and made it into a short video.
 
-<div class="youtube">
-<iframe src="https://www.youtube.com/embed/LcUZHmCqSLY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
-</div>
+::: youtube
+https://www.youtube.com/embed/LcUZHmCqSLY
+:::
 
 The format of such graphics was similar to the above video.
 
@@ -63,10 +62,9 @@ However, we now have artists on demand and with AI video generation slowly reari
 
 I don't have fine-grained control per scene yet and the usual quirks of AI image generation do show up here as well. All that said, I managed to generate a somewhat coherent animated video that was thematically close to my verses. I believe it is a significant step forward. As the industry matures, I am hoping to revive the love for Tamil poetry and storytelling by pairing with better quality AI generated movies.
 
-<div class="youtube">
-<iframe src="https://www.youtube.com/embed/ksv2tZL2cKc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
-</div>
+::: youtube
+https://www.youtube.com/embed/ksv2tZL2cKc
+:::
 
 Artists may frown or figuratively throw up at the use of AI (we have one at home) both from the quality and the ethical implications around its usage. I'm strictly experimenting and I'm hopeful
 that it does increase creative output and resultant engagement by being a less expensive
