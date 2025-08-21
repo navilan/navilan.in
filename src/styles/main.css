@@ -213,9 +213,16 @@ h6 {
   @apply mt-12;
 }
 
+/* When CTA section is inside content column, center buttons */
+.content-column .cta-section {
+  @apply flex flex-col md:flex-row gap-4 w-full;
+  @apply mt-8;
+}
+
 .cta-button {
   @apply flex flex-col items-center justify-center;
-  @apply px-8 py-6 min-w-[280px] rounded-lg;
+  @apply px-8 py-6 rounded-lg;
+  @apply flex-1;
   @apply bg-base-100 text-base-content;
   @apply hover:bg-base-200 transform hover:-translate-y-1;
   @apply transition-all duration-300;

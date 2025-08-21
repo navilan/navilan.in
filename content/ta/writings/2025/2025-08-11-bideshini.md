@@ -27,12 +27,18 @@ modified: 2025-08-11
 
 [cini]: https://www.youtube.com/watch?v=EA9x7-XDMzI
 
-<div class="row youtube">
-<iframe
-   src="https://www.youtube.com/embed/HGij33-NDR4"
-   frameborder="0"
-   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+## வங்கமும் தமிழும்
+
+:::youtube
+https://www.youtube.com/embed/HGij33-NDR4
+:::
+
+## தமிழ் மட்டும்
+
+:::youtube
+https://youtu.be/jSuVb6yqWMA
+:::
+
 
 ## தமிழாக்கங்கள்
 
