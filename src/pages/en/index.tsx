@@ -1,6 +1,6 @@
-import { DuctPageComponent } from '@duct-ui/router';
 import { LANGUAGE_CONTEXTS } from '@lib/language-contexts';
 import Markdown from '@duct-ui/components/content/markdown/markdown';
+import SearchModalProvider from '@/components/search-modal-provider';
 import aboutContent from '@snippets/en/about.md?raw';
 
 export const getLayout = () => 'page.html';
@@ -12,10 +12,10 @@ export const getPageMeta = () => ({
   ...LANGUAGE_CONTEXTS.en
 });
 
-const EnglishHomePage: DuctPageComponent = () => {
+const EnglishHomePage = () => {
   return (
-
     <>
+      <SearchModalProvider />
       <section class="hero-section">
         <div class="avatar-column">
           <img class="avatar-image" src="/media/images/navilan.png" alt="navilan" />

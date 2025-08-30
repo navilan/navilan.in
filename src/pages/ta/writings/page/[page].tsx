@@ -1,5 +1,6 @@
 import { ContentFile, DuctPageComponent } from '@duct-ui/router';
 import { LANGUAGE_CONTEXTS } from '@lib/language-contexts';
+import SearchModalProvider from '@/components/search-modal-provider';
 
 export const getLayout = () => 'list.html';
 
@@ -47,7 +48,11 @@ export async function getRoutes(content?: Map<string, ContentFile[]>): Promise<R
 }
 
 const TamilWritingsPaginationPage: DuctPageComponent = () => {
-  return <></>;
+  return (
+    <>
+      <SearchModalProvider />
+    </>
+  );
 };
 
 export default TamilWritingsPaginationPage;

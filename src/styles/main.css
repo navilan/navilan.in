@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@import "@duct-ui/components/layout/modal.css";
+@import "@duct-ui/components/search/search.css";
+
 @plugin "@tailwindcss/typography";
 
 @plugin "daisyui" {
@@ -158,7 +161,7 @@ body {
 }
 
 .main-nav {
-  @apply flex justify-center gap-8 mt-6;
+  @apply flex justify-center gap-8 mt-6 items-center;
   @apply text-base uppercase tracking-wider font-medium;
 }
 
@@ -171,6 +174,21 @@ body {
 
 .nav-link.active {
   @apply text-accent border-accent;
+}
+
+/* Search Button */
+.search-button {
+  @apply p-2 rounded-lg hover:bg-primary-content/10 transition-all duration-200;
+  @apply border-none bg-transparent cursor-pointer;
+  @apply flex items-center justify-center;
+}
+
+.search-button:hover .search-icon {
+  @apply text-accent;
+}
+
+.search-button-icon {
+  @apply w-5 h-5 mx-2;
 }
 
 h1,
@@ -228,6 +246,7 @@ h6 {
   @apply transition-all duration-300;
   @apply shadow-sm hover:shadow-md;
   @apply border border-base-300;
+  @apply no-underline;
 }
 
 .cta-primary {

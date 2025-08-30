@@ -27,6 +27,6 @@ export default defineConfig({
   },
   optimizeDeps: {
     // Force Vite to watch these files for changes
-    include: ['src/markdown-parser.js']
+    include: [ ]
   }
 });

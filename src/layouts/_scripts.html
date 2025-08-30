@@ -2,3 +2,11 @@
     initializePanAndZoom();
 </script>
 <script src="/media/scripts/fslightbox.js"></script>
+
+{% for script in page.scripts %}
+<script type="module" src="{{ script }}"></script>
+{% endfor %}
+
+{% if page.inlineScript %}
+<script>{ { page.inlineScript | safe } }</script>
+{% endif %}

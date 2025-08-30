@@ -1,6 +1,6 @@
-import { DuctPageComponent } from '@duct-ui/router';
 import { LANGUAGE_CONTEXTS } from '@lib/language-contexts';
 import Markdown from '@duct-ui/components/content/markdown/markdown';
+import SearchModalProvider from '@/components/search-modal-provider';
 import aboutContent from '@snippets/ta/about.md?raw';
 
 export const getLayout = () => 'page.html';
@@ -12,9 +12,10 @@ export const getPageMeta = () => ({
   ...LANGUAGE_CONTEXTS.ta
 });
 
-const TamilHomePage: DuctPageComponent = () => {
+const TamilHomePage = () => {
   return (
     <>
+      <SearchModalProvider />
       <section class="hero-section">
         <div class="avatar-column">
           <img class="avatar-image" src="/media/images/navilan.png" alt="navilan" />

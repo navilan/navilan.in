@@ -54,6 +54,14 @@ export default {
   pagesDir: 'src/pages',
   layoutsDir: 'src/layouts',
 
+  search: {
+    enabled: true,
+    generateIndex: true,
+    indexPath: 'search-index.json',
+    excludePaths: ['/404'],
+    includeContent: true
+  },
+
   content: {
     excerptMarker: '<!--more-->',
     markdownParser: parseMarkdown

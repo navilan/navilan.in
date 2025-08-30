@@ -10,7 +10,8 @@ export const LANGUAGE_CONTEXTS = {
     'lang_nav_back_to_writings': 'Back to writings',
     'lang_nav_previous_post': 'Previous Post',
     'lang_nav_next_post': 'Next Post',
-    'lang_posts_count': 'posts'
+    'lang_posts_count': 'posts',
+    'lang_search': 'Search'
   },
   ta: {
     'lang': 'ta',
@@ -23,6 +24,7 @@ export const LANGUAGE_CONTEXTS = {
     'lang_nav_back_to_writings': 'பதிவுகள்',
     'lang_nav_previous_post': 'முந்தய பதிவு',
     'lang_nav_next_post': 'அடுத்த பதிவு',
-    'lang_posts_count': 'பதிவுகள்'
+    'lang_posts_count': 'பதிவுகள்',
+    'lang_search': 'தேடு'
   }
 } as const;

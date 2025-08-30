@@ -1,8 +1,13 @@
 import type { PageProps, ContentMeta } from '@duct-ui/router';
 import { LANGUAGE_CONTEXTS } from '@lib/language-contexts';
+import SearchModalProvider from '@/components/search-modal-provider';
 
 const EnglishWritingPage = ({ meta }: PageProps) => {
-  return <></>;
+  return (
+    <>
+      <SearchModalProvider />
+    </>
+  );
 };
 
 export function getLayout(): string {

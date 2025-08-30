@@ -40,7 +40,7 @@
 {% macro paginated_listing(posts, postsPerPage, currentPage, baseUrl, listItemTemplate) %}
 {% set totalPages = (posts.length / postsPerPage) | round(0, 'ceil') %}
 {% set startIndex = (currentPage - 1) * postsPerPage %}
-{% set endIndex = [startIndex + postsPerPage, posts.length] | min %}
+{% set endIndex = startIndex + postsPerPage %}
 {% set paginatedPosts = posts.slice(startIndex, endIndex) %}
 
 <div class="writings-listing">
@@ -49,7 +49,7 @@
       {% include listItemTemplate %}
     {% endfor %}
   </ul>
-  
+
   {{ pagination_controls(posts, postsPerPage, currentPage, baseUrl) }}
 </div>
 {% endmacro %}

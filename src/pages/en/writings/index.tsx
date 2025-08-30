@@ -1,5 +1,6 @@
 import { DuctPageComponent } from '@duct-ui/router';
 import { LANGUAGE_CONTEXTS } from '@lib/language-contexts';
+import SearchModalProvider from '@/components/search-modal-provider';
 
 export const getLayout = () => 'list.html';
 
@@ -22,7 +23,11 @@ export const getPageMeta = () => ({
 });
 
 const EnglishWritingsPage: DuctPageComponent = () => {
-  return <></>;
+  return (
+    <>
+      <SearchModalProvider />
+    </>
+  );
 };
 
 export default EnglishWritingsPage;

@@ -1,3 +1,7 @@
 <main class="main-container {% if page.container_class %}{{ page.container_class }}{% endif %}">
-  {% block content %}{{content | safe}}{% endblock %}
+  {% block content %}
+  <div id="app">
+    {{content | safe}}
+  </div>
+  {% endblock %}
 </main>
