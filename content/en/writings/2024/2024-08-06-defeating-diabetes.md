@@ -2,7 +2,7 @@
 title: "Defeating Diabetes - Part 1"
 date: "2024-08-06"
 og_image: "/en/writings/2024/diabetes/diabetes.jpg"
-tags: "navilan,blog,diabetes,workout,problem"
+tags: [navilan, blog, diabetes, workout, problem]
 description: "Combating type-2 diabetes with a workout and dietary regimen."
 pageType: "essay"
 author_twitter: "navilan"

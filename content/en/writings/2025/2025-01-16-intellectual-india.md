@@ -2,7 +2,7 @@
 title: "The intellectual map of India: Past, Present and Future."
 date: "2025-01-16"
 og_image: "/en/writings/2025/map/nalanda.jpg"
-tags: "navilan,blog,india,philosophy"
+tags: [navilan, blog, india, philosophy]
 description: "An exploration of the intellectual past, present and future of the cradle of religions."
 pageType: "essay"
 author_twitter: "navilan"

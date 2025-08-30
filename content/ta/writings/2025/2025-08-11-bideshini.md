@@ -4,7 +4,7 @@ date: 2025-08-11
 ogmeta: true
 image_source: /ta/writings/2025/kanmani.png
 image_title: கண்மணி - நவிலன்
-tags: navilan,blog,poetry,tamil,rabindra sangeet
+tags: [navilan, blog, poetry, tamil, rabindra sangeet]
 description: கண்மணி - Ami cini go cini, Rabindra Sangeet in Tamil
 pageType: poetry
 author_twitter: navilan

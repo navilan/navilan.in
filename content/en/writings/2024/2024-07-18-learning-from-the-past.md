@@ -2,7 +2,7 @@
 title: "Learning from the past"
 date: "2024-07-18"
 og_image: "/en/writings/2024/past/maginot.jpg"
-tags: "navilan,blog,education,problem"
+tags: [navilan, blog, education, problem]
 description: "How to learn from the past?"
 pageType: "essay"
 author_twitter: "navilan"

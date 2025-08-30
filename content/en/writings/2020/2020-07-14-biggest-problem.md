@@ -2,7 +2,7 @@
 title: "The biggest problem with education in India"
 date: "2020-07-14"
 og_image: "/en/writings/2020/biggest-problem/assessments.jpg"
-tags: "navilan,blog,education,problem"
+tags: [navilan, blog, education, problem]
 description: "Discuss why Indian education needs an overhaul"
 pageType: "essay"
 addToc: true

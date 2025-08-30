@@ -2,7 +2,7 @@
 title: "The Truth of India: The deeper purpose"
 date: "2025-04-12"
 og_image: "/en/writings/2025/map/nalanda.jpg"
-tags: "navilan,blog,india,philosophy"
+tags: [navilan, blog, india, philosophy]
 description: "A deep dive into the very purpose of purpose."
 pageType: "essay"
 author_twitter: "navilan"

@@ -2,7 +2,7 @@
 title: "The Purpose of India: What is our duty?"
 date: "2025-03-10"
 og_image: "/en/writings/2025/map/nalanda.jpg"
-tags: "navilan,blog,india,philosophy"
+tags: [navilan, blog, india, philosophy]
 description: "A deep dive into why India is essential in the large scheme of things?"
 pageType: "essay"
 author_twitter: "navilan"
