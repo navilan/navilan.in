@@ -814,6 +814,32 @@ h6 {
   @apply mx-auto block;
 }
 
+/* Mobile styles for writing container and images */
+@media (max-width: 768px) {
+  .writing-container {
+    @apply px-1;
+    max-width: calc(100vw - 8px);
+  }
+
+  .post-content.prose > p > img {
+    max-width: calc(100vw - 8px);
+    width: calc(100vw - 8px);
+    @apply -mx-1;
+  }
+
+  .writing-post {
+    @apply mx-0;
+    max-width: calc(100vw - 8px);
+    min-width: auto;
+
+  }
+  .post-navigation {
+    max-width: calc(100vw - 8px);
+    @apply mx-0;
+  }
+}
+
+
 .writing-post img.small,
 .post-content img.small {
   max-height: 400px;
