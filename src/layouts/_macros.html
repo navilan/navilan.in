@@ -1,4 +1,4 @@
-{% macro pagination_controls(posts, postsPerPage, currentPage, baseUrl) %}
+{% macro pagination_controls(posts, postsPerPage, currentPage, baseUrl, page) %}
 {% set totalPages = (posts.length / postsPerPage) | round(0, 'ceil') %}
 {% if totalPages > 1 %}
 <nav class="pagination-nav" aria-label="Pagination">
@@ -6,7 +6,7 @@
     {% if currentPage > 1 %}
     <a href="{{ baseUrl }}{% if currentPage > 2 %}/page/{{ currentPage - 1 }}{% endif %}" class="pagination-link pagination-prev">
       <span class="pagination-arrow">←</span>
-      <span class="pagination-text">Previous</span>
+      <span class="pagination-text">{{ page.lang_previous }}</span>
     </a>
     {% endif %}
 
@@ -22,22 +22,22 @@
 
     {% if currentPage < totalPages %}
     <a href="{{ baseUrl }}/page/{{ currentPage + 1 }}" class="pagination-link pagination-next">
-      <span class="pagination-text">Next</span>
+      <span class="pagination-text">{{ page.lang_next }}</span>
       <span class="pagination-arrow">→</span>
     </a>
     {% endif %}
   </div>
   <div class="pagination-info">
     <span class="pagination-summary">
-      Page {{ currentPage }} of {{ totalPages }}
-      ({{ posts.length }} total posts)
+      {{ page.lang_page }} {{ currentPage }} {{ page.lang_of }} {{ totalPages }}
+      ({{ posts.length }} {{ page.lang_total_posts }})
     </span>
   </div>
 </nav>
 {% endif %}
 {% endmacro %}
 
-{% macro paginated_listing(posts, postsPerPage, currentPage, baseUrl, listItemTemplate) %}
+{% macro paginated_listing(posts, postsPerPage, currentPage, baseUrl, listItemTemplate, page) %}
 {% set totalPages = (posts.length / postsPerPage) | round(0, 'ceil') %}
 {% set startIndex = (currentPage - 1) * postsPerPage %}
 {% set endIndex = startIndex + postsPerPage %}
@@ -50,6 +50,6 @@
     {% endfor %}
   </ul>
 
-  {{ pagination_controls(posts, postsPerPage, currentPage, baseUrl) }}
+  {{ pagination_controls(posts, postsPerPage, currentPage, baseUrl, page) }}
 </div>
 {% endmacro %}

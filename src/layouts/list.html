@@ -6,7 +6,7 @@
   {% if page.postsPerPage %}
     {% set currentPage = page.currentPage or 1 %}
     {% set baseUrl = '/' + page.collection_name %}
-    {{ paginated_listing(collections[page.collection_name], page.postsPerPage, currentPage, baseUrl, "_list_item.html") }}
+    {{ paginated_listing(collections[page.collection_name], page.postsPerPage, currentPage, baseUrl, "_list_item.html", page) }}
   {% else %}
     <ul class="writings-grid">
       {% for post in collections[page.collection_name] %}

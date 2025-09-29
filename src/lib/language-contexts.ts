@@ -11,7 +11,12 @@ export const LANGUAGE_CONTEXTS = {
     'lang_nav_previous_post': 'Previous Post',
     'lang_nav_next_post': 'Next Post',
     'lang_posts_count': 'posts',
-    'lang_search': 'Search'
+    'lang_search': 'Search',
+    'lang_previous': 'Previous',
+    'lang_next': 'Next',
+    'lang_page': 'Page',
+    'lang_of': 'of',
+    'lang_total_posts': 'total posts'
   },
   ta: {
     'lang': 'ta',
@@ -25,6 +30,11 @@ export const LANGUAGE_CONTEXTS = {
     'lang_nav_previous_post': 'முந்தய பதிவு',
     'lang_nav_next_post': 'அடுத்த பதிவு',
     'lang_posts_count': 'பதிவுகள்',
-    'lang_search': 'தேடு'
+    'lang_search': 'தேடு',
+    'lang_previous': 'பின்னே',
+    'lang_next': 'முன்னே',
+    'lang_page': 'பக்கம்',
+    'lang_of': '/',
+    'lang_total_posts': 'பக்கங்கள்'
   }
 } as const;
