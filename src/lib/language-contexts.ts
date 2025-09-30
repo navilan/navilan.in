@@ -35,6 +35,6 @@ export const LANGUAGE_CONTEXTS = {
     'lang_next': 'முன்னே',
     'lang_page': 'பக்கம்',
     'lang_of': '/',
-    'lang_total_posts': 'பக்கங்கள்'
+    'lang_total_posts': 'பதிவுகள்'
   }
 } as const;
