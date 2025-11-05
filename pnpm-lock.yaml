@@ -47,6 +47,9 @@ importers:
       markdown-it-prism:
         specifier: ^3.0.0
         version: 3.0.0
+      markdown-it-sub:
+        specifier: ^2.0.0
+        version: 2.0.0
       markdown-it-table-of-contents:
         specifier: ^1.1.0
         version: 1.1.0
@@ -816,6 +819,9 @@ packages:
   markdown-it-prism@3.0.0:
     resolution: {integrity: sha512-M0LQsbVzjbzufV95nYdtbs99Sm/8f7zLnqFblb5yQZtFTGLM+y6hxMZ8BdujY3FFqVvTbnZ52/uoicQUqZUYbg==}
     engines: {node: '>=20.0.0'}
+
+  markdown-it-sub@2.0.0:
+    resolution: {integrity: sha512-iCBKgwCkfQBRg2vApy9vx1C1Tu6D8XYo8NvevI3OlwzBRmiMtsJ2sXupBgEA7PPxiDwNni3qIUkhZ6j5wofDUA==}
 
   markdown-it-table-of-contents@1.1.0:
     resolution: {integrity: sha512-oeXSGohBTj+08uwdI2f/gaT3BiqNQoYR4gWEfDot3u+EBW0J+baLb+QwBnV065o0ugwJM1OiPSD3bUD8mwT/QQ==}
@@ -1601,6 +1607,8 @@ snapshots:
   markdown-it-prism@3.0.0:
     dependencies:
       prismjs: 1.30.0
+
+  markdown-it-sub@2.0.0: {}
 
   markdown-it-table-of-contents@1.1.0: {}
 

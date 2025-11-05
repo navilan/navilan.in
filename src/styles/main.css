@@ -784,6 +784,10 @@ h6 {
   max-width: 50%;
 }
 
+img.col-wise-small, .col-wise-small img {
+  @apply w-sm text-center mx-auto;
+}
+
 .col-wise-full {
   @apply flex flex-col gap-2 justify-center items-center content-center my-8;
 }
@@ -885,4 +889,12 @@ h6 {
 /* Alternate layout for even cards */
 .story.card:nth-child(even) {
   @apply md:flex-row-reverse;
+}
+
+td .blue, td.blue {
+  @apply text-blue-600;
+}
+
+td .red, td.red {
+  @apply text-red-600;
 }

@@ -29,6 +29,7 @@
     "markdown-it-container": "^4.0.0",
     "markdown-it-footnote": "^4.0.0",
     "markdown-it-prism": "^3.0.0",
+    "markdown-it-sub": "^2.0.0",
     "markdown-it-table-of-contents": "^1.1.0",
     "markdown-it-task-lists": "^2.1.1",
     "prismjs": "^1.30.0"

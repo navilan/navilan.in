@@ -5,6 +5,7 @@ import markdownItAnchor from 'markdown-it-anchor'
 import markdownItContainer from 'markdown-it-container'
 import markdownItFootnote from 'markdown-it-footnote'
 import markdownItTaskLists from 'markdown-it-task-lists'
+import markdownItSub from 'markdown-it-sub'
 
 // Import Prism language components for syntax highlighting
 import 'prismjs/components/prism-javascript.js'
@@ -39,6 +40,7 @@ export function createMarkdownParser() {
     }
   })
 
+
   // Add attributes support {.class #id key=value}
   md.use(markdownItAttrs, {
     leftDelimiter: '{',
@@ -63,6 +65,9 @@ export function createMarkdownParser() {
 
   // Add footnotes support
   md.use(markdownItFootnote)
+
+  // Add subscript support
+  md.use(markdownItSub)
 
   // Add task lists support
   md.use(markdownItTaskLists, {
@@ -226,7 +231,7 @@ export function createMarkdownParser() {
         // opening tag - find and process all tokens until closing
         let content = '';
         let closeIdx = -1;
-        
+
         // Find the closing container token
         for (let i = idx + 1; i < tokens.length; i++) {
           if (tokens[i].type === 'container_youtube_close') {
@@ -234,11 +239,11 @@ export function createMarkdownParser() {
             break;
           }
         }
-        
+
         // Process all tokens between open and close, extracting URL and hiding them
         for (let i = idx + 1; i < closeIdx; i++) {
           const token = tokens[i];
-          
+
           if (token.type === 'paragraph_open') {
             const inlineToken = tokens[i + 1];
             if (inlineToken && inlineToken.type === 'inline') {
@@ -254,7 +259,7 @@ export function createMarkdownParser() {
                 content = inlineToken.content.trim();
               }
             }
-            
+
             // Clear the tokens completely
             tokens[i].content = '';     // paragraph_open
             tokens[i + 1].content = ''; // inline
@@ -267,12 +272,12 @@ export function createMarkdownParser() {
             token.children = [];
           }
         }
-        
+
         if (content) {
           // Extract video ID and preserve query parameters
           let videoId = '';
           let queryParams = '';
-          
+
           if (content.includes('youtube.com/embed/')) {
             const parts = content.split('embed/')[1];
             videoId = parts.split(/[?&]/)[0];
@@ -305,13 +310,13 @@ export function createMarkdownParser() {
               queryParams = '?' + parts[1];
             }
           }
-          
+
           if (videoId) {
             return `<div class="youtube">
 <iframe src="https://www.youtube.com/embed/${videoId}${queryParams}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>\n`;
           }
         }
-        
+
         return '<div class="youtube">\n';
       } else {
         // closing tag
@@ -333,11 +338,11 @@ export function createMarkdownParser() {
     const token = tokens[idx];
     const currentLevel = parseInt(token.tag.substring(1)); // Extract number from 'h1', 'h2', etc.
     const newLevel = Math.min(currentLevel + 1, 6); // Demote by one level, max h6
-    
+
     // Create a new token with the demoted level
     const newToken = Object.assign({}, token);
     newToken.tag = 'h' + newLevel;
-    
+
     return renderer.renderToken([newToken], 0, options);
   };
 
@@ -345,10 +350,10 @@ export function createMarkdownParser() {
     const token = tokens[idx];
     const currentLevel = parseInt(token.tag.substring(1));
     const newLevel = Math.min(currentLevel + 1, 6);
-    
+
     const newToken = Object.assign({}, token);
     newToken.tag = 'h' + newLevel;
-    
+
     return renderer.renderToken([newToken], 0, options);
   };
 
