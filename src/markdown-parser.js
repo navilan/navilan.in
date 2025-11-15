@@ -222,6 +222,20 @@ export function createMarkdownParser() {
     }
   })
 
+  // Add custom blockquote container with preserved line breaks
+  md.use(markdownItContainer, 'quote-preserve', {
+    validate: function(params) {
+      return params.trim().match(/^quote-preserve$/);
+    },
+    render: function (tokens, idx) {
+      if (tokens[idx].nesting === 1) {
+        return '<blockquote class="preserve-breaks">\n';
+      } else {
+        return '</blockquote>\n';
+      }
+    }
+  })
+
   md.use(markdownItContainer, 'youtube', {
     validate: function(params) {
       return params.trim().match(/^youtube$/);

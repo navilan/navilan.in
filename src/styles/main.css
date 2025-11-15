@@ -898,3 +898,8 @@ td .blue, td.blue {
 td .red, td.red {
   @apply text-red-600;
 }
+
+/* Blockquote with preserved line breaks */
+blockquote.preserve-breaks {
+  @apply whitespace-pre-line m-0;
+}
