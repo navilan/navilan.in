@@ -78,7 +78,16 @@ He could add that additional row and make a wish. But Vishnu would simply add on
 | Lion  | Human |
 | Human{.red} | Lion{.red} |
 
-Not only can there be a new row, but a new column as well. They can make it a race and keep this up for all eternity. So, we are looking at a table with an infinite number of rows and an infinite number of columns.
+Not only can there be a new row, but a new column as well.
+
+| Head        | Hair       | Body       |
+| ----------- | ---------- | ---------  |
+| Human       | Human      | Human      |
+| Lion        | Lion       | Lion       |
+| Lion        | Human      | Human      |
+| Human       | Lion       | Human      |
+
+They can make it a race and keep this up for all eternity. So, we are looking at a table with an infinite number of rows and an infinite number of columns.
 
 | Head  | Hair  | Eyes | Nose | Mouth | Neck | ... |
 | ----- | ----- | -----|------|-------|------|-----|
@@ -88,7 +97,7 @@ Not only can there be a new row, but a new column as well. They can make it a ra
 | Lion  | Lion | Human | Lion | Lion  | Lion | ... |
 | ...   | ...   | ...  | ...  | ...   | ...  | ... |
 
-To make his wish, Hiranyakashipu has to construct this table and state that he cannot be killed by any row in that table. Instead of constructing the actual table, he can construct a logical one defined by the rules. Let's assume that he makes that wish and Brahma grants it. As soon as it is granted, Vishnu will use the diagonal argument to counter it. How?
+To make his wish, Hiranyakashipu has to construct this table and state that he cannot be killed by any row in that table. Instead of constructing the actual table, which would take infinite amount of time, he can construct a logical one defined by some generative rules. Let's assume that he makes that wish and Brahma grants it. As soon as it is granted, Vishnu will use the diagonal argument to counter it. How?
 
 If there are rows  r~1~ through r~n~, Vishnu will construct a new row r~n+1~ that will use the elements of the diagonal in the table. That is, r~11~, r~22~,..., r~nn~.
 
