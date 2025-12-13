@@ -729,13 +729,32 @@ h6 {
   @apply flex-wrap;
 }
 
-.row-wise-wider img,
 .row-wise.wider img,
 .post-content .row-wise-wider img {
   @apply m-0 h-auto rounded-lg shadow-md inline-block;
   max-width: calc(50% - 0.25rem);
   flex: 0 1 calc(50% - 0.25rem);
   display: inline-block !important;
+}
+
+.row-wise-wider a,
+.post-content .row-wise-wider a {
+  @apply flex justify-center items-center;
+  max-width: calc(50% - 0.25rem);
+  flex: 0 1 calc(50% - 0.25rem);
+}
+
+.row-wise-wider a img,
+.post-content .row-wise-wider a img {
+  @apply m-0 h-auto rounded-lg shadow-md mx-auto;
+  max-width: 100% !important;
+  flex: none !important;
+  display: block !important;
+}
+
+.row-wise.wider img.no-shadow,
+.post-content .row-wise-wider img.no-shadow {
+  @apply shadow-none;
 }
 
 .row-wise-full {
