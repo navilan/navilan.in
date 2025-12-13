@@ -45,7 +45,7 @@ Another example is the Tamil movie, [Meiyazhagan][meiyazhagan] - a beautiful ren
 ![Meiyazhagan](/en/writings/2025/sw/meiyazhagan.jpg)
 :::
 
-These stories paint the characters with unquestionable integrity, vulnerable, open and ready to be accepted as they are with all their quirks and beauty packaged together. As the audience, you bring a piece of these characters with yourself, your emotions clearly entwined with them.
+These stories paint the characters with unquestionable integrity, vulnerable, open and ready to be accepted as they are with all their quirks and beauty packaged together. As the audience, you bring a piece of these characters back with you, your emotions clearly entwined with them.
 
 ## Tidal Stories
 
@@ -111,7 +111,7 @@ As a writer, you are focused on your audience. You write every word, every turn,
 
 As you slowly develop the required negative emotions to celebrate the downfall of the monster, you are dragged down violently from the exhilarating action and relentless pace into a state of total calm and deep reflection, as you are forced to identify with the monster you were so deeply rooting against. If you will allow it, you may witness your own movement as you shift through hatred, empathy and transcendence realizing that every character could be your own self.
 
-In [Enlightenment Guaranteed][enlightenment-guaranteed], we follow two brothers on a journey of self-discovery. What seems to be a coming of age movie for middle-aged people is a deeper critique on life itself as we view the brothers with our shallow eyes, judgments and commentary in our heads only to see those views slowly transform as it prompts us to reflect on ourselves, our surface level view of life, desires for greener grass, need for validation and our willingness to sacrifice authenticity so that we fit in.
+In [Enlightenment Guaranteed][enlightenment-guaranteed], we follow two brothers on a journey of self-discovery. What seems to be a coming-of-age movie for middle-aged people is a deeper critique on life itself as we view the brothers with our shallow eyes, judgments and commentary in our heads only to see those views slowly transform as it prompts us to reflect on ourselves, our surface level view of life, desires for greener grass, need for validation and our willingness to sacrifice authenticity so that we fit in.
 
 :::row-wise-wider
 ![Enlightenment Guaranteed](/en/writings/2025/sw/enlightenment-guaranteed.jpg)
@@ -123,7 +123,7 @@ Mrinal Sen's comedic epic [Bhuvan Shome][] takes you through two worlds, one mec
 ![Bhuvan Shome](/en/writings/2025/sw/Bhuvan_Shome.jpg)
 :::
 
-You follow the tale as a whimsical caricature laughing along at the loud differences between the two worlds, the oversized characters bringing all of themselves to add more color to an already colorful portrayal only to find yourself masterfully placed in the middle of an ancient epic, questioning ethics, education, relationships and the butterfly effect of our miraculous existence.
+You follow the tale, its whimsical caricature, laughing along at the loud differences between the two worlds, the oversized characters bringing all of themselves to add more color to an already colorful portrayal only to find yourself masterfully placed in the middle of an ancient epic, questioning ethics, education, relationships and the butterfly effect of our miraculous existence.
 
 Cosmic stories are the ones that place you in the same spot as Bhuvan, experiencing life anew as through the movie you learn more about your own self. You stand naked as the plot, the characters, however outsized they may be, disappear and several big questions are asked of you, inviting you to view the world that you inhabit in a slightly different perspective.
 
@@ -135,11 +135,11 @@ Cosmic stories are the ones that place you in the same spot as Bhuvan, experienc
 
 Guillermo Del Toro's [Frankenstein][] is a gorgeous rendition of an epic tale. It captures every ounce of your attention with beautiful sets, exceptional attention to detail, breathtakingly detailed character sketches, ethereal costumes and riveting performances.
 
-With the story told in two parts and with two perspectives, it deceptively leads you to characterize it as a cosmic story. However, if you pay attention you realize that both the parts are told from a point of time where the transformational event, the creatures beauty and the creators ugliness have already surfaced. So the two perspectives do not alter the state of your empathy.
+With the story told in two parts and with two perspectives, it deceptively leads you to characterize it as a cosmic story. However, if you pay attention you realize that both the parts are told from a point of time when the transformational event has already happened. When the creator aims to destroy his creation, the creature's beauty and the creator's ugliness have already surfaced. So the two perspectives do not alter the state of your empathy.
 
-Throughout the movie your emotions are strictly aligned with the creature seeking meaning and the creator as a representation of biblical greed. You realize that this is a decision made by the director. He wanted the movie to be seen from this point of view, even through two different lenses. So, while this movie could have been potentially cosmic, it is a spiritual one.
+Throughout the movie your emotions are strictly aligned with the creature seeking meaning and the creator as a representation of Biblical greed. You realize that this is a decision made by the director. He wanted the movie to be seen from this point of view, even through two different lenses. So, while this movie could have been potentially cosmic, it is a spiritual one.
 
-Does it make the movie better or worse? This question is the reason why I decided to make the characterization a wheel instead of a pyramid. GDT's Frankenstein is a fantastic spiritual movie. It gives you an unforgettable experience while leaving the space for another potential Frankenstein movie to fill the cosmic space.
+Does it make the movie better or worse? This question is the reason why I decided to make the characterization a wheel instead of a pyramid. GDT's Frankenstein is a fantastic spiritual movie. It gives you an unforgettable experience while leaving room for another potential Frankenstein movie to fill the cosmic space.
 
 [Frankenstein]: https://www.imdb.com/title/tt1312221/
 [seinfeld]: https://www.imdb.com/title/tt0098904/
@@ -158,9 +158,11 @@ Does it make the movie better or worse? This question is the reason why I decide
 
 # A storyteller's perspective
 
-To narrate long stories to an audience is a transformative experience. You are telling a story while trying to connect with every person in the audience. As you are doing it they are connecting with the story and its characters through you. You respond to your audience, as you gauge their attention, their reactions and gently modifying your actions, sometimes the storyline, sometimes the characters in your story to make the experience one that they will never forget.
+To narrate long stories to an audience is a transformative experience. You are telling a story while trying to connect with every person in the audience. As you are doing it they are connecting with the story and its characters through you. You respond to your audience, as you gauge their attention, their reactions and gently modify, sometimes your actions, sometimes the storyline, sometimes the characters in your story to make the experience one that they will never forget.
 
- When the story you aim to tell is a cosmic one, it takes you to a different plane of existence. A wild horse that is the story and its characters having a direction of its own, another one the imagination of your audience, trying to mirror sometimes trying shift, yet another one, your own trying to respond and synchronize the two horses. If you are to make this a cosmic one, you have to become the field in which these horses gallop, surrendering to their rhythms, giving all your energy so that their movements align. When you manage that occasionally, that place along with everyone in it experiences the cosmic shift.
+ When the story you aim to tell is a cosmic one, it takes you to a different plane of existence. The story and its characters gallop as a wild horse having a direction of its own. The imagination of the audience rides as another, trying to mirror, sometimes trying to break away. Yet another one, your own trying hard to respond and synchronize the other two.
+
+ If you are to make this a cosmic experience for all, you have to become the field in which these horses gallop, surrendering to their rhythms, giving all your energy so that their movements align. When you manage that occasionally, the whole place along with everyone in it experiences a magical cosmic shift and reality bends.
 
 :::row-wise-wider
 ![Telling Cosmic Stories](/en/writings/2025/sw/kayal2.jpg)
