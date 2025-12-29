@@ -156,7 +156,7 @@ Does it make the movie better or worse? This question is the reason why I decide
 [Kayal Preview]: https://workdrive.zohoexternal.com/external/2d3acff009f256fe37df3f69f4f1f5bf58d80e86be84fb752d2d91a957e8dab3/download
 [Kayal Amazon]: https://www.amazon.com/Kayal-Formidable-Navilan-ebook/dp/B089T7JB6J
 
-# A storyteller's perspective
+## A storyteller's perspective
 
 To narrate long stories to an audience is a transformative experience. You are telling a story while trying to connect with every person in the audience. As you are doing it they are connecting with the story and its characters through you. You respond to your audience, as you gauge their attention, their reactions and gently modify, sometimes your actions, sometimes the storyline, sometimes the characters in your story to make the experience one that they will never forget.
 
@@ -169,3 +169,11 @@ To narrate long stories to an audience is a transformative experience. You are t
 :::
 
 [Kayal, The Formidable][Kayal Amazon] is a story that is a culmination of several attempts to tell such a cosmic story. Here is a [preview copy][Kayal Preview] of Kayal for anyone that wishes to continue my attempts. I can assure you, young storyteller, that it will be as transformative for you as it is for your audience.
+
+## Stories are Envelopes
+
+Once Kurt Vonnegut told his wife that he was going out to buy an envelope.
+
+> Oh, she says well, you’re not a poor man. You know, why don’t you go online and buy a hundred envelopes and put them in the closet? And so I pretend not to hear her. And go out to get an envelope because I’m going to have a hell of a good time in the process of buying one envelope. I meet a lot of people. And, see some great looking babes. And a fire engine goes by. And I give them the thumbs up. And, and ask a woman what kind of dog that is. And, and I don’t know. The moral of the story is, is we’re here on Earth to fart around. And, of course, the computers will do us out of that. And, what the computer people don’t realize, or they don’t care, is we’re dancing animals.
+
+*&mdash; Kurt Vonnegut*
