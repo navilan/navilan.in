@@ -92,17 +92,17 @@ Infinite twists and infinite turns. One perfect life.
 ![A Surreal Fractal](./col/circle_5.png)
 
 What if
-We zoom in further
-A lot more than our tools allow
-But our imagination can reach
-And we find that
-Every side of that infinite polygon
-Is made up of infinite fjords
-Like the coasts of our lands.
+you zoom in further,
+a lot more than tools allow,
+but imagination can reach.
+And you find that
+every side of that infinite polygon
+is made up of infinite fjords
+like the coasts of lands.
 As you go further in,
-You see each fjord is made of fjords too.
+you see each fjord is made of fjords too.
 You observe closely,
-The fjords are pulsing,
+the fjords are pulsing,
 like infinite heartbeats.
 3.141592
 653589793
