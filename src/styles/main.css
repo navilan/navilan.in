@@ -895,7 +895,6 @@ img.col-wise-small, .col-wise-small img {
   @apply object-cover;
   @apply flex-1;
 
-
 }
 
 .story.card p,
@@ -916,6 +915,16 @@ td .blue, td.blue {
 
 td .red, td.red {
   @apply text-red-600;
+}
+
+/* Story card with image on top - preserves original aspect ratio */
+.story.card.top-img {
+  @apply flex-col;
+}
+
+.story.card.top-img img {
+  @apply w-full h-auto object-contain;
+  @apply flex-none;
 }
 
 /* Blockquote with preserved line breaks */
