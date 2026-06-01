@@ -141,7 +141,7 @@ A fjord...
 Would you call this ordinary?
 If this is ordinary, what is extraordinary?
 Devil may well be in the details,
-But what is Devil, if there is no God?
+but what is Devil, if there is no God?
 
 </section>
 </div>
